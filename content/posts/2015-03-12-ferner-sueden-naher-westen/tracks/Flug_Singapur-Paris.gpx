@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="Locus Android"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+ xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2"
+ xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+ xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1"
+ xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
+ xmlns:locus="http://www.locusmap.eu">
+	<metadata>
+		<desc>File with points/tracks from Locus Free/3.7.1</desc>
+	</metadata>
+<trk>
+<name>Flug Singapur-Paris</name>
+<desc><![CDATA[0h:00m:00s | 11031 km]]></desc>
+	<extensions>
+		<gpx_style:line>
+			<gpx_style:color>#960000FF</gpx_style:color>
+			<gpx_style:width>6.0</gpx_style:width>
+		</gpx_style:line>
+	</extensions>
+<trkseg>
+<trkpt lat="1.347170" lon="103.993013">
+</trkpt>
+<trkpt lat="2.735044" lon="101.703106">
+</trkpt>
+<trkpt lat="6.744742" lon="96.039144">
+</trkpt>
+<trkpt lat="11.527205" lon="85.856098">
+</trkpt>
+<trkpt lat="22.446062" lon="65.038347">
+</trkpt>
+<trkpt lat="29.775037" lon="55.067482">
+</trkpt>
+<trkpt lat="36.948916" lon="47.327680">
+</trkpt>
+<trkpt lat="42.118194" lon="37.093941">
+</trkpt>
+<trkpt lat="44.044169" lon="26.573543">
+</trkpt>
+<trkpt lat="45.267576" lon="20.668360">
+</trkpt>
+<trkpt lat="46.445423" lon="14.562516">
+</trkpt>
+<trkpt lat="48.200181" lon="6.994709">
+</trkpt>
+<trkpt lat="49.021851" lon="2.541012">
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

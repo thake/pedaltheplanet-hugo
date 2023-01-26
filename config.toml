@@ -1,0 +1,6 @@
+baseURL = 'https://www.pedaltheplanet.de/'
+languageCode = 'de-de'  
+title = 'Pedal the Planet'
+description = 'Sabine und Thorsten auf Weltreise'
+theme = ["hugo-shortcode-gallery"]
+defaultContentLanguage = 'de'

@@ -1,0 +1,51 @@
+{{ define "heading" }}
+<div class="category-route">
+
+
+    <div id="map" class="category-route-map"></div>    
+    {{ partial "maps/init-map.html" . }}
+    
+    <div class="et-date-wrapper"><span class="et-date">Deutschland</span></div>
+
+
+    <script type="text/javascript">
+        var selectedIcon = 'https://www.pedaltheplanet.de/wordpress/wp-content/themes/Explorable/images/blue-marker.png';
+        var notSelectedIcon = 'https://www.pedaltheplanet.de/wordpress/wp-content/themes/Explorable/images/red-marker.png';
+        (function($) {
+            mapDiv = $('#category-route-map');
+            $(window).load(function(){
+                initialize();
+            });
+        }(jQuery));
+
+        function initialize(){
+            loadMapCoordinatesFullWidth(function(center, zoom){
+                initSingleMap(zoom, center, google.maps.MapTypeId.HYBRID);
+            });
+        }
+
+    </script>
+</div>
+{{ end }}
+{{ define "main" }}
+{{ range .Pages }}
+<article class="entry-post clearfix">
+    <div class="post-thumbnail">
+        {{ $alt := .Page.Title }}
+        {{ with .Page.Resources.GetMatch .Params.featured_image }}        
+            {{ $image := .Fit "960x320" }}
+            <img src="{{ $image.RelPermalink }}" alt='{{ $alt }}' width='{{ $image.Width }}' height='{{ $image.Height }}' />		
+        {{ end }}
+        <div class="post-description">
+        
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="meta-info"> am {{ time.Format "02. January 2006" .Date }}</p>		
+    </div> <!-- .post-description -->
+
+    </div> <!-- .post-thumbnail -->
+    <p>{{ .Summary }}</p>
+
+    <a href="{{ .RelPermalink }}" class="read-more">Mehr lesen &nbsp;<span>&raquo;</span></a>
+</article> 
+{{ end }}
+{{ end }}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpsies="http://www.gpsies.com/GPX/1/0" creator="GPSies http://www.gpsies.com - Urumqi-Chengdu Part 2" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.gpsies.com/GPX/1/0 http://www.gpsies.com/gpsies.xsd">
+  <metadata>
+    <name>Urumqi-Chengdu Part 2</name>
+    <author>
+      <name>deichblach</name>
+      <link href="http://www.gpsies.com/mapUser.do?username=deichblach">
+        <text>deichblach on GPSies.com</text>
+        <type>GPSiesUserOnWeb</type>
+      </link>
+    </author>
+    <link href="http://www.gpsies.com/map.do?fileId=aamxuriiptrtmxcj">
+      <text>Urumqi-Chengdu Part 2 on GPSies.com</text>
+      <type>trackOnWeb</type>
+    </link>
+    <time>2014-10-18T16:53:16Z</time>
+    <extensions>
+      <gpsies:property>one-way trip</gpsies:property>
+      <gpsies:trackLengthMeter>18577.305021100332</gpsies:trackLengthMeter>
+      <gpsies:totalAscentMeter>198.0</gpsies:totalAscentMeter>
+      <gpsies:totalDescentMeter>225.0</gpsies:totalDescentMeter>
+      <gpsies:minHeightMeter>755.0</gpsies:minHeightMeter>
+      <gpsies:maxHeightMeter>795.0</gpsies:maxHeightMeter>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>Urumqi-Chengdu Part 2 on GPSies.com</name>
+    <link href="http://www.gpsies.com/map.do?fileId=aamxuriiptrtmxcj">
+      <type>trackOnWeb</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/aa/map/aamxuriiptrtmxcj_map.png">
+      <type>elevationChartUrlMap</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/aa/mapThumb/aamxuriiptrtmxcj_mapThumb.png">
+      <type>elevationChartUrlMapThumb</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/aa/tab/aamxuriiptrtmxcj_tab.png">
+      <type>elevationChartUrlTab</type>
+    </link>
+    <trkseg>
+      <trkpt lat="43.15159870" lon="91.30462640">
+        <ele>782.00000</ele>
+        <time>2010-01-01T00:00:00Z</time>
+      </trkpt>
+      <trkpt lat="43.14608810" lon="91.31973260">
+        <ele>795.00000</ele>
+        <time>2010-01-01T00:08:13Z</time>
+      </trkpt>
+      <trkpt lat="43.13732020" lon="91.35852810">
+        <ele>760.00000</ele>
+        <time>2010-01-01T00:27:59Z</time>
+      </trkpt>
+      <trkpt lat="43.13068090" lon="91.43011360">
+        <ele>777.00000</ele>
+        <time>2010-01-01T01:03:07Z</time>
+      </trkpt>
+      <trkpt lat="43.13569180" lon="91.45860940">
+        <ele>768.00000</ele>
+        <time>2010-01-01T01:17:23Z</time>
+      </trkpt>
+      <trkpt lat="43.13418860" lon="91.47611890">
+        <ele>781.00000</ele>
+        <time>2010-01-01T01:25:58Z</time>
+      </trkpt>
+      <trkpt lat="43.12992920" lon="91.49465830">
+        <ele>768.00000</ele>
+        <time>2010-01-01T01:35:26Z</time>
+      </trkpt>
+      <trkpt lat="43.13328030" lon="91.52724000">
+        <ele>755.00000</ele>
+        <time>2010-01-01T01:51:27Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
+

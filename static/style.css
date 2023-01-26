@@ -1,0 +1,336 @@
+/*
+Theme Name:     Explorable child
+Theme URI:      http://example.com/
+Description:    Child theme for the Explorable theme
+Author:         Thorsten Hake
+Author URI:     http://example.com/about/
+Template:       Explorable
+Version:        0.0.1
+*/
+@import url("explorable-style.css");
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Hide filter bar */
+#filter-bar{
+	display: none;
+}
+
+
+
+
+#et_main_map {
+	margin-top: 0;
+}
+
+#entry-route-map {
+	height: 400px;
+        width: 100%;
+}
+body.et_map_full_screen #main-header{
+    position:relative;
+}
+
+/* Needed for correct german rotation*/
+html:lang(de) #et-list-view .et-date{
+    left: -102px;
+}
+.etc_next_post_map{
+    text-align:right;
+    float: right;
+    padding-right: 5px;
+}
+.etc_previous_post_map{
+    text-align:left;
+    float: left;
+    padding-left: 5px;
+}
+.etc_location_header{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#et-slider-wrapper:before { 
+    border-right: 0px;
+    border-left: 0px; 
+}
+.et-place-main-text {
+    padding-left: 20px;
+}
+.et-place-content { 
+    padding-top: 10px;
+}
+#et-slider-wrapper{
+    position: absolute;    
+    top:100px;
+    bottom: 40px;
+    left: 60px;
+    max-width: 800px;
+    width: 50%;
+    background: transparent;
+    box-shadow: none;
+}
+#et-slider-shadow-top, #et-slider-shadow-bottom{
+    position: absolute;
+    left: 60px;    
+    max-width: 800px;
+    width: 50%;
+    display:none;   
+    z-index: 3;
+}
+#et-slider-shadow-top{
+    top:100px;
+}
+#et-slider-shadow-bottom{
+    bottom: 40px;
+    height:15px;
+}
+#shadow-top,#shadow-bottom{
+    position:absolute;
+    left:0px;
+    right:16px;
+    height: 15px;    
+}
+#shadow-top{
+    background: linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%);
+    background: -o-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%);
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%);
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%);
+    background: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%);
+}
+#shadow-bottom{
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,0,0,0,0.02), color-stop(100%,rgba(0,0,0,0.3))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%); /* IE10+ */
+    background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.02) 10%,rgba(0,0,0,0.3) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */   
+   
+}
+
+.et-map-slide{
+    background: #fff;
+
+}
+.et-place-content{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#et-slider-wrapper:after{
+    background: transparent;    
+}
+.et-place-text-wrapper {
+    background: inherit;
+}
+
+#logo, #logo:hover{
+    font-family: 'League Gothic', Arial, sans-serif;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    
+}
+/*#main-header .container{
+    width: 900px;
+}*/
+
+/* Google+ Gallery integration style */
+img.peg-photo:hover, .peg-album img:hover {
+	border-color: black !important;
+}
+
+/* Google Translator */
+.et-google-translate{
+    position: absolute;
+    right: 150px;
+    top: 5px;
+}
+#flags{
+    width: auto !important;
+}
+
+.peg-album{
+    text-align: center;
+}
+
+/* To make sure that the scrollbar is not above the header */
+body.et_map_full_screen #main-header {
+    z-index: 5;
+}
+/* to provide a good view even if the display is pretty limited */
+@media only screen and ( max-width: 960px ) {
+    #et-slider-shadow-bottom, #et-slider-shadow-top, div.cartodb-legend-stack, #et_main_map{
+        display: none !important;
+    }
+    #et-slider-wrapper{
+        display: block;
+        position: relative;
+        top: 0px;
+        bottom: inherit;
+        left: 0px;
+        right: 0px;
+        width: auto;
+        max-width: available;
+        
+    }
+}
+/* Formatting the more div on the main page */
+.more{
+    float: none;
+}
+.more-div{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.article-view-div{
+    text-align: right;
+    margin-right: -20px;
+    margin-bottom: 10px;
+}
+.et_embedded_videos{ display: block !important; }
+.et_tablet #et-slider-wrapper { display: block; }
+/* Styling of the map on single posting view */
+.entry-route{
+    padding-top: 20px;
+}
+.entry-map-wrapper {
+    margin-right: -60px;   
+    margin-left: -60px;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* Styling of the map for the categories */
+.category-route-map{
+    height: 400px;
+    width: 100%;
+    
+}
+/* styling specific for smaller devices such as handelds */
+@media only screen and ( max-height: 700px ) {
+	#category-route-map{
+		height: 300px;
+	}
+}
+@media only screen and ( max-height: 600px ) {
+	#category-route-map{
+		height: 250px;
+	}
+}
+@media only screen and ( max-height: 400px ) {
+	#category-route-map{
+		height: 200px;
+	}
+}
+.category-route{
+    position:relative;
+}
+/* Fixing google maps css error */
+.gmnoprint img, .gm-style img, #lightbox img {
+    max-width: none;
+}
+
+/* Fixing the container css */
+#main-area .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.show-on-map{
+    float:left;
+}
+.etc_direct_post_nav{
+    float:right;
+}
+.entry_track_heading{
+    font-family: 'League Gothic';
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#main-area .container, #main-area{
+    border: 0px;
+}
+#left-area{
+    padding-top: 30px;
+}
+.entry-post:first-child .post-thumbnail{
+    margin-top: -30px;
+}
+/* load animation */
+.et-load-animation {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+#main-area { background: #F0F0F0;}
+
+@media only screen and ( max-width: 767px ) {
+	#main-header .container, #filter-bar .container, .container { width: 100%; }
+        .entry-map-wrapper {
+            margin-right: 0px;   
+            margin-left: 0px;            
+        }
+}
+/* Menu arrow styles  */
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+	padding-right: 2.5em;
+	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+	content: ' \00BB';
+	right: 1em;
+	margin-top: -3px;
+		
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -3px;
+	border-color: transparent;
+	border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+	border-left-color: rgba(255,255,255,.5);
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: white;
+}
+/* Menu pointer style */
+.menu-item-without-link{
+    cursor: default;
+}
+/* Definitions */
+dl dt{
+    line-height: 24px;
+}
+dl dd{
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+/* Numerations in et-place-content */
+.et-place-content ul { list-style-type: disc; padding: 0 0 23px 16px; line-height: 26px; }
+	.et-place-content ol { list-style-type: decimal; list-style-position: inside; padding: 0 0 23px 0; line-height: 26px; }
+		.et-place-content ul li ul, .et-place-content ul li ol { padding: 2px 0px 2px 20px; }
+		.et-place-content ol li ul, .et-place-content ol li ol { padding: 2px 0px 2px 35px; }

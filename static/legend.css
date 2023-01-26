@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.legend-canvas {
+    color: #2e3c43;
+    position: absolute;
+    margin-left: 10px;
+    display: none;
+    width: 120px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 24%);
+    z-index: 20000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: calc(100vh - 88px);
+}
+.legend-canvas-inner {
+    touch-action: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 12px;
+}
+
+
+.legend-title {
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    font-weight: 600;
+}
+.legend-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.legend-item {
+    margin-top: 12px;
+    height: 100%;
+    display: block;
+}
+div.legend-categories ul {
+    color: #858585;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+div.legend-categories ul li, div.legend-categories.color ul li, div.legend-categories.custom ul li {
+    margin: 0 0 7px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+div.legend-categories ul li .bullet, div.legend-categories.color ul li .bullet, div.legend-categories.custom ul li .bullet {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+div.legend-categories ul li {
+    font-size: 10px;
+    color: #666;
+    font-weight: 700;
+    font-family: Helvetica,Arial;
+    text-transform: uppercase;
+}

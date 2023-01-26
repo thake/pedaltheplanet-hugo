@@ -1,0 +1,23 @@
+{{ define "heading" }}
+<div class="et-map-post">
+    <div class="thumbnail">
+        {{ $alt := .Page.Title }}
+        {{ with .Page.Resources.GetMatch .Params.featured_image }}
+        {{ $image := .Fit "960x320" }}
+        <img src="{{ $image.RelPermalink }}" alt='{{ $alt }}' width='{{ $image.Width }}' height='{{ $image.Height }}' />
+        {{ end }}
+        <div class="et-description">
+            <h1>{{ .Title }}</h1>
+        </div>
+        <div class="et-date-wrapper">
+            <span class="et-date">{{ time.Format "02. January" .Date }}<span>{{ time.Format "2006" .Date }}</span></span>
+        </div>                    
+    </div>
+</div>
+{{ end }}
+{{ define "main" }}
+
+<article class="entry-content">
+    <p>{{ .Content }}</p>
+</article> 
+{{ end }}

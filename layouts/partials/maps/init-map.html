@@ -1,0 +1,17 @@
+{{ partial "maps/legend.html" . }}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_P-hn8ptgfZd75Gd8RjmY_8CtYCMLm1c&callback=initMap"></script>
+<script>
+    let map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 16,
+            center: new google.maps.LatLng(-33.91722, 151.23064),
+            mapTypeId: "roadmap",
+        });
+
+
+        const legend = document.getElementById("legend");
+        map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+    }
+    window.initMap = initMap;
+</script>
