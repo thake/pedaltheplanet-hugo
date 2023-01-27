@@ -33,7 +33,7 @@ Version:        0.0.1
 	margin-top: 0;
 }
 
-#entry-route-map {
+.entry-route-map {
 	height: 400px;
         width: 100%;
 }

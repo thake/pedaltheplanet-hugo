@@ -6,25 +6,6 @@
     {{ partial "maps/init-map.html" . }}
     
     <div class="et-date-wrapper"><span class="et-date">Deutschland</span></div>
-
-
-    <script type="text/javascript">
-        var selectedIcon = 'https://www.pedaltheplanet.de/wordpress/wp-content/themes/Explorable/images/blue-marker.png';
-        var notSelectedIcon = 'https://www.pedaltheplanet.de/wordpress/wp-content/themes/Explorable/images/red-marker.png';
-        (function($) {
-            mapDiv = $('#category-route-map');
-            $(window).load(function(){
-                initialize();
-            });
-        }(jQuery));
-
-        function initialize(){
-            loadMapCoordinatesFullWidth(function(center, zoom){
-                initSingleMap(zoom, center, google.maps.MapTypeId.HYBRID);
-            });
-        }
-
-    </script>
 </div>
 {{ end }}
 {{ define "main" }}

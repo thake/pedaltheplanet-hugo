@@ -2,15 +2,71 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_P-hn8ptgfZd75Gd8RjmY_8CtYCMLm1c&callback=initMap"></script>
 <script>
     let map;
+    async function loadTrack(url){
+        const response = await fetch(url);
+        track = await geobuf.decode(new Pbf(await response.arrayBuffer()));
+        track.features = track.features.filter(feature => feature.geometry.type === 'LineString');
+        return track;
+    }
+    function processPoints(geometry, callback, thisArg) {
+        if (geometry instanceof google.maps.LatLng) {
+            callback.call(thisArg, geometry);
+        } else if (geometry instanceof google.maps.Data.Point) {
+            callback.call(thisArg, geometry.get());
+        } else {
+            geometry.getArray().forEach(function(g) {
+                processPoints(g, callback, thisArg);
+            });
+        }
+    }
     function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 16,
-            center: new google.maps.LatLng(-33.91722, 151.23064),
+        map = new google.maps.Map(document.getElementById("map"), {            
             mapTypeId: "roadmap",
         });
 
-
+        {{ $pages := slice }}
+        
+        {{ with .Pages }}
+          {{ $pages = . }}          
+        {{ else }}
+            {{ $pages = slice . }}
+            {{ $myPage := index $pages 0 }}
+        {{ end }}
+        
+        {{ range $page := $pages }}            
+            
+            {{ range $track := $page.Params.tracks }}        
+                {{ with $page.Resources.GetMatch $track.file }}
+        loadTrack({{ .RelPermalink }}).then((track) => {
+            addedFeatures = map.data.addGeoJson(track);
+            {{ if eq $track.vehicle "car" }}
+                addedFeatures.forEach((feature) => {
+                    map.data.overrideStyle(feature, {
+                        strokeColor: '#5fd45f'
+                    })
+                })
+            {{ end }}
+            {{ if eq $track.vehicle "plane" }}
+            addedFeatures.forEach((feature) => {
+                map.data.overrideStyle(feature, {
+                    strokeColor: '#54aadd'
+                })
+            })
+            {{ end }}
+        });
+                {{ end }}
+            {{ end }}
+        {{ end }}
         const legend = document.getElementById("legend");
+        // zoom to show all the features
+        var bounds = new google.maps.LatLngBounds();
+        map.data.setStyle({
+            strokeColor: '#d43838'
+        })
+        map.data.addListener('addfeature', function(e) {
+            processPoints(e.feature.getGeometry(), bounds.extend, bounds);
+            map.fitBounds(bounds);
+        });
         map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
     }
     window.initMap = initMap;
