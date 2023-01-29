@@ -25,7 +25,9 @@
         <h1 class="entry_track_heading">Gefahrene Strecke</h1>
         <div id="map" class="entry-route-map"></div>
     </div>
-    {{ partial "maps/init-map.html" . }}
-    
+    {{ partial "maps/init-map.html" . }}    
 </div>
+<!-- Start disqus -->
+{{ template "_internal/disqus.html" . }}
+<!-- end disqus -->
 {{ end }}
