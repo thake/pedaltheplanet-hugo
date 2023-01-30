@@ -7,7 +7,7 @@ url: /listing/alles-was-das-radreisende-herz-begehrt/
 featured_image: DSC06137012.jpg
 attachments:
   - '{"tracks":[{"id":"901","fields":{"endflag":"false","vehicle":"bike"}},{"id":"903","fields":{"endflag":"false","vehicle":"car"}},{"id":"904","fields":{"endflag":"false","vehicle":"bike"}},{"id":"906","fields":{"endflag":"false","vehicle":"bike"}},{"id":"907","fields":{"endflag":"false","vehicle":"bike"}},{"id":"908","fields":{"endflag":"false","vehicle":"bike"}},{"id":"909","fields":{"endflag":"false","vehicle":"bike"}},{"id":"910","fields":{"endflag":"false","vehicle":"bike"}},{"id":"911","fields":{"endflag":"false","vehicle":"bike"}},{"id":"912","fields":{"endflag":"false","vehicle":"bike"}},{"id":"913","fields":{"endflag":"false","vehicle":"bike"}},{"id":"914","fields":{"endflag":"false","vehicle":"bike"}},{"id":"915","fields":{"endflag":"false","vehicle":"bike"}},{"id":"916","fields":{"endflag":"false","vehicle":"bike"}},{"id":"917","fields":{"endflag":"false","vehicle":"bike"}},{"id":"918","fields":{"endflag":"false","vehicle":"bike"}},{"id":"920","fields":{"endflag":"false","vehicle":"bike"}},{"id":"922","fields":{"endflag":"false","vehicle":"car"}},{"id":"923","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Südostasien
 tracks:
   - endflag: false

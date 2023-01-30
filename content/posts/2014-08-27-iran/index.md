@@ -7,7 +7,7 @@ url: /listing/iran/
 featured_image: DSC0300401.jpg
 attachments:
   - '{"tracks":[{"id":"551","fields":{"endflag":"false","vehicle":"bike"}},{"id":"552","fields":{"endflag":"false","vehicle":"bike"}},{"id":"553","fields":{"endflag":"false","vehicle":"bike"}},{"id":"554","fields":{"endflag":"false","vehicle":"car"}},{"id":"555","fields":{"endflag":"false","vehicle":"bike"}},{"id":"556","fields":{"endflag":"false","vehicle":"car"}},{"id":"557","fields":{"endflag":"false","vehicle":"bike"}},{"id":"558","fields":{"endflag":"false","vehicle":"car"}},{"id":"559","fields":{"endflag":"false","vehicle":"bike"}},{"id":"560","fields":{"endflag":"false","vehicle":"bike"}},{"id":"561","fields":{"endflag":"false","vehicle":"car"}},{"id":"562","fields":{"endflag":"false","vehicle":"bike"}},{"id":"563","fields":{"endflag":"false","vehicle":"bike"}},{"id":"564","fields":{"endflag":"false","vehicle":"bike"}},{"id":"565","fields":{"endflag":"false","vehicle":"bike"}},{"id":"566","fields":{"endflag":"false","vehicle":"car"}},{"id":"567","fields":{"endflag":"false","vehicle":"bike"}},{"id":"568","fields":{"endflag":"false","vehicle":"car"}},{"id":"570","fields":{"endflag":"true","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Iran
   - Türkei
 tracks:

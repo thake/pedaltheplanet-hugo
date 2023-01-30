@@ -7,7 +7,7 @@ url: /listing/coming-home/
 featured_image: beitrags_cover.jpg
 attachments:
   - '{"tracks":[{"id":"962","fields":{"endflag":"false","vehicle":"bike"}},{"id":"963","fields":{"endflag":"false","vehicle":"bike"}},{"id":"964","fields":{"endflag":"false","vehicle":"bike"}},{"id":"965","fields":{"endflag":"false","vehicle":"bike"}},{"id":"966","fields":{"endflag":"false","vehicle":"bike"}},{"id":"967","fields":{"endflag":"false","vehicle":"bike"}},{"id":"968","fields":{"endflag":"false","vehicle":"bike"}},{"id":"969","fields":{"endflag":"false","vehicle":"bike"}},{"id":"970","fields":{"endflag":"false","vehicle":"bike"}},{"id":"971","fields":{"endflag":"false","vehicle":"bike"}},{"id":"972","fields":{"endflag":"false","vehicle":"bike"}},{"id":"973","fields":{"endflag":"false","vehicle":"bike"}},{"id":"974","fields":{"endflag":"false","vehicle":"bike"}},{"id":"975","fields":{"endflag":"true","vehicle":"bike"}},{"id":"976","fields":{"endflag":"false","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Deutschland
   - Frankreich
 tracks:

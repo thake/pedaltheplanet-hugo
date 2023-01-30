@@ -7,7 +7,7 @@ url: /listing/kambodschas-tempel-thailands-straende/
 featured_image: DSC0604901.jpg
 attachments:
   - '{"tracks":[{"id":"864","fields":{"endflag":"false","vehicle":"bike"}},{"id":"867","fields":{"endflag":"false","vehicle":"bike"}},{"id":"868","fields":{"endflag":"false","vehicle":"bike"}},{"id":"869","fields":{"endflag":"false","vehicle":"bike"}},{"id":"870","fields":{"endflag":"false","vehicle":"bike"}},{"id":"871","fields":{"endflag":"false","vehicle":"bike"}},{"id":"872","fields":{"endflag":"false","vehicle":"bike"}},{"id":"873","fields":{"endflag":"false","vehicle":"bike"}},{"id":"874","fields":{"endflag":"false","vehicle":"bike"}},{"id":"875","fields":{"endflag":"false","vehicle":"bike"}},{"id":"876","fields":{"endflag":"false","vehicle":"bike"}},{"id":"877","fields":{"endflag":"false","vehicle":"bike"}},{"id":"878","fields":{"endflag":"false","vehicle":"bike"}},{"id":"879","fields":{"endflag":"false","vehicle":"bike"}},{"id":"880","fields":{"endflag":"false","vehicle":"bike"}},{"id":"881","fields":{"endflag":"false","vehicle":"bike"}},{"id":"882","fields":{"endflag":"true","vehicle":"bike"}},{"id":"981","fields":{"endflag":"false","vehicle":"car"}},{"id":"883","fields":{"endflag":"false","vehicle":"car"}},{"id":"887","fields":{"endflag":"false","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Südostasien
 tracks:
   - endflag: false

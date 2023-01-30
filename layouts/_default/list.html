@@ -1,11 +1,10 @@
 {{ define "heading" }}
 <div class="category-route">
-
-
+    {{ if (partial "maps/check-map-needed.html" .) }}
     <div id="map" class="category-route-map"></div>    
     {{ partial "maps/init-map.html" . }}
-    
-    <div class="et-date-wrapper"><span class="et-date">Deutschland</span></div>
+    {{ end }}
+    <div class="et-date-wrapper"><span class="et-date">{{ .Title }}</span></div>
 </div>
 {{ end }}
 {{ define "main" }}
@@ -20,7 +19,7 @@
         <div class="post-description">
         
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p class="meta-info"> am {{ time.Format "02. January 2006" .Date }}</p>		
+        {{ if .Date }}<p class="meta-info"> am {{ time.Format "02. January 2006" .Date }}</p>{{ end }}		
     </div> <!-- .post-description -->
 
     </div> <!-- .post-thumbnail -->

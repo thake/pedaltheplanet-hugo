@@ -7,7 +7,7 @@ url: /listing/superlative/
 featured_image: DSC0187601.jpg
 attachments:
   - '{"tracks":[{"id":"458","fields":{"endflag":"false","vehicle":"bike"}},{"id":"459","fields":{"endflag":"false","vehicle":"bike"}},{"id":"460","fields":{"endflag":"false","vehicle":"bike"}},{"id":"461","fields":{"endflag":"false","vehicle":"bike"}},{"id":"462","fields":{"endflag":"false","vehicle":"bike"}},{"id":"463","fields":{"endflag":"false","vehicle":"bike"}},{"id":"464","fields":{"endflag":"false","vehicle":"bike"}},{"id":"465","fields":{"endflag":"false","vehicle":"bike"}},{"id":"466","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Türkei
 tracks:
   - endflag: false

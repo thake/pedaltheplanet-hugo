@@ -7,7 +7,7 @@ url: /listing/in-den-bergen-von-sichuan/
 featured_image: DSC0433701.jpg
 attachments:
   - '{"tracks":[{"id":"696","fields":{"endflag":"false","vehicle":"bike"}},{"id":"697","fields":{"endflag":"false","vehicle":"bike"}},{"id":"698","fields":{"endflag":"false","vehicle":"bike"}},{"id":"699","fields":{"endflag":"false","vehicle":"bike"}},{"id":"700","fields":{"endflag":"false","vehicle":"bike"}},{"id":"701","fields":{"endflag":"false","vehicle":"bike"}},{"id":"702","fields":{"endflag":"false","vehicle":"bike"}},{"id":"703","fields":{"endflag":"false","vehicle":"bike"}},{"id":"704","fields":{"endflag":"false","vehicle":"bike"}},{"id":"705","fields":{"endflag":"false","vehicle":"bike"}},{"id":"706","fields":{"endflag":"false","vehicle":"bike"}},{"id":"707","fields":{"endflag":"false","vehicle":"bike"}},{"id":"709","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - China
 tracks:
   - endflag: false

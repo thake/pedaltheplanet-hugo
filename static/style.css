@@ -25,10 +25,6 @@ Version:        0.0.1
 #filter-bar{
 	display: none;
 }
-
-
-
-
 #et_main_map {
 	margin-top: 0;
 }
@@ -146,24 +142,14 @@ html:lang(de) #et-list-view .et-date{
     width: 900px;
 }*/
 
-/* Google+ Gallery integration style */
-img.peg-photo:hover, .peg-album img:hover {
-	border-color: black !important;
-}
+
 
 /* Google Translator */
-.et-google-translate{
-    position: absolute;
-    right: 150px;
-    top: 5px;
-}
+
 #flags{
     width: auto !important;
 }
 
-.peg-album{
-    text-align: center;
-}
 
 /* To make sure that the scrollbar is not above the header */
 body.et_map_full_screen #main-header {
@@ -203,12 +189,13 @@ body.et_map_full_screen #main-header {
 .et_tablet #et-slider-wrapper { display: block; }
 /* Styling of the map on single posting view */
 .entry-route{
-    padding-top: 20px;
+/*    padding-top: 20px; */
 }
 .entry-map-wrapper {
     margin-right: -60px;   
     margin-left: -60px;
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -238,9 +225,9 @@ body.et_map_full_screen #main-header {
     position:relative;
 }
 /* Fixing google maps css error */
-.gmnoprint img, .gm-style img, #lightbox img {
+/*.gmnoprint img, .gm-style img, #lightbox img {
     max-width: none;
-}
+}*/
 
 /* Fixing the container css */
 #main-area .container {
@@ -334,3 +321,40 @@ dl dd{
 	.et-place-content ol { list-style-type: decimal; list-style-position: inside; padding: 0 0 23px 0; line-height: 26px; }
 		.et-place-content ul li ul, .et-place-content ul li ol { padding: 2px 0px 2px 20px; }
 		.et-place-content ol li ul, .et-place-content ol li ol { padding: 2px 0px 2px 35px; }
+
+/* Table of Content */
+#toc_container.toc_transparent {
+    background: none transparent;
+}
+#toc_container {
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: auto;
+    display: table;
+    font-size: 95%;
+}
+#toc_container p.toc_title {
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+#toc_container li, #toc_container ul {
+    margin: 0;
+    padding: 0;
+}
+#toc_container p.toc_title+ul.toc_list {
+    margin-top: 1em;
+}
+#toc_container.no_bullets li, #toc_container.no_bullets ul, #toc_container.no_bullets ul li, .toc_widget_list.no_bullets, .toc_widget_list.no_bullets li {
+    background: 0 0;
+    list-style-type: none;
+    list-style: none;
+}
+/* Gallery */
+.gallery-wrapper {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}

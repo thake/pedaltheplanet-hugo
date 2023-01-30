@@ -1,0 +1,14 @@
+{{ $pages := slice }}
+
+{{ with .Pages }}
+    {{ $pages = . }}
+{{ else }}
+    {{ $pages = slice . }}
+{{ end }}
+{{ $hasTracks := false }}
+{{ range $page := $pages }}
+    {{ if and (isset $page.Params "tracks") (gt (len $page.Params.tracks) 0) }}
+        {{ $hasTracks = true }}
+    {{ end }}
+{{ end }}
+{{ return $hasTracks }}

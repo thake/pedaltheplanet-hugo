@@ -7,7 +7,7 @@ url: /listing/vielversprechender-start-in-der-tuerkei/
 featured_image: DSC0060501.jpg
 attachments:
   - '{"tracks":[{"id":"378","fields":{"endflag":"false","vehicle":"bike"}},{"id":"379","fields":{"endflag":"false","vehicle":"bike"}},{"id":"380","fields":{"endflag":"false","vehicle":"bike"}},{"id":"381","fields":{"endflag":"false","vehicle":"bike"}},{"id":"382","fields":{"endflag":"false","vehicle":"bike"}},{"id":"383","fields":{"endflag":"false","vehicle":"bike"}},{"id":"384","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Türkei
 tracks:
   - endflag: false

@@ -7,7 +7,7 @@ url: /listing/zurueck-in-den-alltag/
 featured_image: DSC0154201.jpg
 attachments:
   - '{"tracks":[{"id":"400","fields":{"endflag":"false","vehicle":"bike"}},{"id":"401","fields":{"endflag":"false","vehicle":"bike"}},{"id":"402","fields":{"endflag":"false","vehicle":"bike"}},{"id":"403","fields":{"endflag":"false","vehicle":"bike"}},{"id":"405","fields":{"endflag":"false","vehicle":"bike"}},{"id":"406","fields":{"endflag":"false","vehicle":"bike"}},{"id":"407","fields":{"endflag":"true","vehicle":"bike"}},{"id":"408","fields":{"endflag":"false","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Türkei
 tracks:
   - endflag: false

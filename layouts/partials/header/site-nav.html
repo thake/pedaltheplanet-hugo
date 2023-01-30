@@ -1,37 +1,31 @@
 <header id="main-header">
     <div class="container clearfix">
-        <a href="https://www.pedaltheplanet.de/" id="logo"/>Pedal the Planet</a>
+        <a href="{{ .Site.BaseURL }}" id="logo"/>Pedal the Planet</a>
 
         <div id="top-navigation">
             <nav>
-                <ul id="menu-menue-1" class="nav"><li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type current-listing_type-ancestor current-menu-ancestor current-menu-parent current-listing_type-parent menu-item-has-children menu-item-30"><a href="https://www.pedaltheplanet.de/listing-type/reiseberichte/">Reiseberichte</a>
-                    <ul class="sub-menu">
-                        <li id="menu-item-217" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type current-menu-item menu-item-217"><a href="https://www.pedaltheplanet.de/listing-type/deutschland/" aria-current="page">Deutschland</a></li>
-                        <li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-259"><a href="https://www.pedaltheplanet.de/listing-type/oesterreich/">Österreich</a></li>
-                        <li id="menu-item-301" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-301"><a href="https://www.pedaltheplanet.de/listing-type/slowakei-und-ungarn/">Slowakei und Ungarn</a></li>
-                        <li id="menu-item-318" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-318"><a href="https://www.pedaltheplanet.de/listing-type/balkan/">Balkan</a></li>
-                        <li id="menu-item-367" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-367"><a href="https://www.pedaltheplanet.de/listing-type/tuerkei/">Türkei</a></li>
-                        <li id="menu-item-574" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-574"><a href="https://www.pedaltheplanet.de/listing-type/iran/">Iran</a></li>
-                        <li id="menu-item-609" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-609"><a href="https://www.pedaltheplanet.de/listing-type/zentralasien/">Zentralasien</a></li>
-                        <li id="menu-item-714" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-714"><a href="https://www.pedaltheplanet.de/listing-type/china/">China</a></li>
-                        <li id="menu-item-762" class="menu-item menu-item-type-taxonomy menu-item-object-listing_type menu-item-762"><a href="https://www.pedaltheplanet.de/listing-type/suedostasien/">Südostasien</a></li>
-                    </ul>
-                </li>
-                    <li id="menu-item-111" class="menu-item-without-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-111"><a>Vorbereitungen</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://www.pedaltheplanet.de/geplante-route/">Geplante Route</a></li>
-                            <li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a href="https://www.pedaltheplanet.de/visa/">Visa</a></li>
-                            <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://www.pedaltheplanet.de/uebersicht-vor-der-reise/radreise-durch-norwegen/">Radreise durch Norwegen</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"><a href="https://www.pedaltheplanet.de/wir/">Wir</a></li>
-                    <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="https://www.pedaltheplanet.de/material/">Material</a></li>
-                    <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://www.pedaltheplanet.de/links/">Links</a></li>
-                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://www.pedaltheplanet.de/kontakt/">Kontakt</a></li>
-                </ul>				</nav>
+                {{ $currentPage := . }}
+                <ul id="menu-menue-1" class="nav">
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                        <li class="menu-item menu-item-has-children {{ if $currentPage.IsMenuCurrent "main" . }}current-menu-item{{ end }}">
+                            <a href="{{ .URL }}" class="sf-with-ul">{{ .Name }}</a>
+                            <ul class="sub-menu">
+                                {{ range .Children }}
+                                    <li class="menu-item {{ if $currentPage.IsMenuCurrent "main" . }}current-menu-item{{ end }}"><a href="{{ .URL }}" {{ if $currentPage.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>{{ .Name }}</a></li>
+                                {{ end }}                        
+                            </ul>
+                        </li>
+                    {{ else }}
+                    <li class="menu-item {{ if $currentPage.IsMenuCurrent "main" . }}current-menu-item{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            </nav>
             <div class="et-search-form">
-                <form method="get" class="searchform" action="https://www.pedaltheplanet.de/">
-                    <input type="text" value="Suchen..." name="s" class="search_input" />
+                <form method="get" class="searchform" action="https://www.google.com/">
+                    <input type="text" value="Suchen..." name="q" class="search_input" />
+                    <input type="hidden" value="pedaltheplanet.de" name="as_sitesearch" />
                     <input type="image" alt="Submit" src="https://www.pedaltheplanet.de/wordpress/wp-content/themes/Explorable/images/search-icon.png" class="search_submit" />
                 </form>
             </div> <!-- .et-search-form -->

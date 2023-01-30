@@ -7,7 +7,7 @@ url: /listing/europa-macht-urlaub-in-der-tuerkei/
 featured_image: DSC0166501.jpg
 attachments:
   - '{"tracks":[{"id":"429","fields":{"endflag":"false","vehicle":"bike"}},{"id":"430","fields":{"endflag":"false","vehicle":"bike"}},{"id":"431","fields":{"endflag":"false","vehicle":"bike"}},{"id":"432","fields":{"endflag":"false","vehicle":"bike"}},{"id":"433","fields":{"endflag":"false","vehicle":"bike"}},{"id":"434","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Türkei
 tracks:
   - endflag: false

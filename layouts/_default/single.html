@@ -3,30 +3,34 @@
     <div class="thumbnail">
         {{ $alt := .Page.Title }}
         {{ with .Page.Resources.GetMatch .Params.featured_image }}
-        {{ $image := .Fit "960x320" }}
-        <img src="{{ $image.RelPermalink }}" alt='{{ $alt }}' width='{{ $image.Width }}' height='{{ $image.Height }}' />
+            {{ $image := .Fit "960x320" }}
+            <img src="{{ $image.RelPermalink }}" alt='{{ $alt }}' width='{{ $image.Width }}' height='{{ $image.Height }}' />
         {{ end }}
         <div class="et-description">
             <h1>{{ .Title }}</h1>
         </div>
-        <div class="et-date-wrapper">
-            <span class="et-date">{{ time.Format "02. January" .Date }}<span>{{ time.Format "2006" .Date }}</span></span>
-        </div>                    
+        {{ if .Date }}
+            <div class="et-date-wrapper">
+                <span class="et-date">{{ time.Format "02. January" .Date }}<span>{{ time.Format "2006" .Date }}</span></span>
+            </div>               
+        {{ end }}
     </div>
 </div>
 {{ end }}
 {{ define "main" }}
 
 <article class="entry-content">
-    <p>{{ .Content }}</p>
+    {{ .Content }}
 </article>
-<div class="entry-route">
-    <div class="entry-map-wrapper">
-        <h1 class="entry_track_heading">Gefahrene Strecke</h1>
-        <div id="map" class="entry-route-map"></div>
+{{ if (partial "maps/check-map-needed.html" .) }}
+    <div class="entry-route">
+        <div class="entry-map-wrapper">
+            <h1 class="entry_track_heading">{{ .Params.map.title | default "Gefahrene Strecke"}}</h1>
+            <div id="map" class="entry-route-map"></div>
+        </div>
+        {{ partial "maps/init-map.html" . }}    
     </div>
-    {{ partial "maps/init-map.html" . }}    
-</div>
+{{ end }}
 <!-- Start disqus -->
 {{ template "_internal/disqus.html" . }}
 <!-- end disqus -->

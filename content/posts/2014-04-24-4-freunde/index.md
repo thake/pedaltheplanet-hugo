@@ -7,7 +7,7 @@ url: /listing/4-freunde/
 featured_image: DSC0927001.jpg
 attachments:
   - '{"tracks":[{"id":"305","fields":{"endflag":"false","vehicle":"bike"}},{"id":"306","fields":{"endflag":"false","vehicle":"bike"}},{"id":"307","fields":{"endflag":"false","vehicle":"bike"}},{"id":"308","fields":{"endflag":"false","vehicle":"bike"}},{"id":"309","fields":{"endflag":"false","vehicle":"bike"}},{"id":"310","fields":{"endflag":"false","vehicle":"bike"}},{"id":"311","fields":{"endflag":"false","vehicle":"bike"}},{"id":"312","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Balkan
   - Slowakei und Ungarn
 tracks:

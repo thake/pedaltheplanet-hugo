@@ -7,7 +7,7 @@ url: /listing/auf-touristischen-pfaden/
 featured_image: DSC04437012.jpg
 attachments:
   - '{"tracks":[{"id":"724","fields":{"endflag":"false","vehicle":"bike"}},{"id":"725","fields":{"endflag":"false","vehicle":"bike"}},{"id":"726","fields":{"endflag":"false","vehicle":"bike"}},{"id":"727","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - China
 tracks:
   - endflag: false

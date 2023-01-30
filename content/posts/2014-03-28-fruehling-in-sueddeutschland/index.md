@@ -7,7 +7,7 @@ url: /listing/fruehling-in-sueddeutschland/
 featured_image: DSC0823701.jpg
 attachments:
   - '{"tracks":[{"id":"225","fields":{"endflag":"false","vehicle":"bike"}},{"id":"226","fields":{"endflag":"false","vehicle":"bike"}},{"id":"227","fields":{"endflag":"false","vehicle":"bike"}},{"id":"228","fields":{"endflag":"false","vehicle":"car"}},{"id":"229","fields":{"endflag":"false","vehicle":"bike"}},{"id":"230","fields":{"endflag":"false","vehicle":"bike"}},{"id":"231","fields":{"endflag":"false","vehicle":"bike"}},{"id":"232","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Deutschland
 tracks:
   - endflag: false

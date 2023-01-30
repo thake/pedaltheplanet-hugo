@@ -7,7 +7,7 @@ url: /listing/usbekistan/
 featured_image: DSC0337101.jpg
 attachments:
   - '{"tracks":[{"id":"613","fields":{"endflag":"false","vehicle":"car"}},{"id":"614","fields":{"endflag":"false","vehicle":"bike"}},{"id":"615","fields":{"endflag":"false","vehicle":"bike"}},{"id":"616","fields":{"endflag":"false","vehicle":"car"}},{"id":"617","fields":{"endflag":"false","vehicle":"bike"}},{"id":"618","fields":{"endflag":"false","vehicle":"bike"}},{"id":"619","fields":{"endflag":"false","vehicle":"bike"}},{"id":"620","fields":{"endflag":"false","vehicle":"bike"}},{"id":"621","fields":{"endflag":"false","vehicle":"bike"}},{"id":"622","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Zentralasien
 tracks:
   - endflag: false

@@ -1,4 +1,11 @@
 {{ partial "maps/legend.html" . }}
+{{ $pages := slice }}
+
+{{ with .Pages }}
+    {{ $pages = . }}
+{{ else }}
+    {{ $pages = slice . }}    
+{{ end }}
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_P-hn8ptgfZd75Gd8RjmY_8CtYCMLm1c&callback=initMap"></script>
 <script>
     let map;
@@ -21,24 +28,15 @@
     }
     function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {            
-            mapTypeId: "roadmap",
+            mapTypeId: {{ if and .IsPage (isset .Params "map") (isset .Params.map "type") }}"{{ .Params.map.type }}"{{ else }}"roadmap"{{ end }},
         });
-
-        {{ $pages := slice }}
-        
-        {{ with .Pages }}
-          {{ $pages = . }}          
-        {{ else }}
-            {{ $pages = slice . }}
-            {{ $myPage := index $pages 0 }}
-        {{ end }}
-        
+        const legend = document.getElementById("legend");
         {{ range $page := $pages }}            
             
             {{ range $track := $page.Params.tracks }}        
                 {{ with $page.Resources.GetMatch $track.file }}
         loadTrack({{ .RelPermalink }}).then((track) => {
-            addedFeatures = map.data.addGeoJson(track);
+            addedFeatures = map.data.addGeoJson(track);            
             {{ if eq $track.vehicle "car" }}
                 addedFeatures.forEach((feature) => {
                     map.data.overrideStyle(feature, {
@@ -57,7 +55,7 @@
                 {{ end }}
             {{ end }}
         {{ end }}
-        const legend = document.getElementById("legend");
+        
         // zoom to show all the features
         var bounds = new google.maps.LatLngBounds();
         map.data.setStyle({
@@ -65,9 +63,14 @@
         })
         map.data.addListener('addfeature', function(e) {
             processPoints(e.feature.getGeometry(), bounds.extend, bounds);
-            map.fitBounds(bounds);
-        });
+            map.fitBounds(bounds);            
+        });        
         map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+        google.maps.event.addListenerOnce(map, 'idle', function(){
+            setTimeout(function() {
+                legend.style.display = "block";    
+            }, 1000);              
+        });
     }
     window.initMap = initMap;
 </script>

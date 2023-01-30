@@ -7,7 +7,7 @@ url: /listing/ferner-sueden-naher-westen/
 featured_image: DSC06321012.jpg
 attachments:
   - '{"tracks":[{"id":"922","fields":{"endflag":"false","vehicle":"car"}},{"id":"945","fields":{"endflag":"false","vehicle":"bike"}},{"id":"946","fields":{"endflag":"false","vehicle":"bike"}},{"id":"947","fields":{"endflag":"false","vehicle":"bike"}},{"id":"949","fields":{"endflag":"true","vehicle":"bike"}},{"id":"950","fields":{"endflag":"false","vehicle":"bike"}},{"id":"951","fields":{"endflag":"false","vehicle":"plane"}},{"id":"952","fields":{"endflag":"false","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Frankreich
   - Südostasien
 tracks:

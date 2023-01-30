@@ -7,7 +7,7 @@ url: /listing/entspannen-in-laos/
 featured_image: DSC0467701.jpg
 attachments:
   - '{"tracks":[{"id":"793","fields":{"endflag":"false","vehicle":"bike"}},{"id":"794","fields":{"endflag":"false","vehicle":"bike"}},{"id":"795","fields":{"endflag":"false","vehicle":"bike"}},{"id":"796","fields":{"endflag":"false","vehicle":"bike"}},{"id":"797","fields":{"endflag":"false","vehicle":"bike"}},{"id":"798","fields":{"endflag":"true","vehicle":"bike"}},{"id":"801","fields":{"endflag":"false","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Südostasien
 tracks:
   - endflag: false

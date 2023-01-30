@@ -7,7 +7,7 @@ url: /listing/tschao-balgarija-merhaba-tuerkiye/
 featured_image: DSC0049701.jpg
 attachments:
   - '{"tracks":[{"id":"370","fields":{"endflag":"false","vehicle":"bike"}},{"id":"371","fields":{"endflag":"false","vehicle":"bike"}},{"id":"372","fields":{"endflag":"false","vehicle":"bike"}},{"id":"373","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Balkan
   - Türkei
 tracks:

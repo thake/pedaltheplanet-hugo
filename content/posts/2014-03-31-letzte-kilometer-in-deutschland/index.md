@@ -7,7 +7,7 @@ url: /listing/letzte-kilometer-in-deutschland/
 featured_image: DSC0839301.jpg
 attachments:
   - '{"tracks":[{"id":"243","fields":{"endflag":"false","vehicle":"bike"}},{"id":"244","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Deutschland
 tracks:
   - endflag: false

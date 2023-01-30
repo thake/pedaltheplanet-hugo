@@ -7,7 +7,7 @@ url: /listing/ein-abstecher-zum-chinesischen-meer/
 featured_image: DSC05072022.jpg
 attachments:
   - '{"tracks":[{"id":"835","fields":{"endflag":"false","vehicle":"bike"}},{"id":"836","fields":{"endflag":"false","vehicle":"bike"}},{"id":"837","fields":{"endflag":"false","vehicle":"bike"}},{"id":"838","fields":{"endflag":"false","vehicle":"bike"}},{"id":"839","fields":{"endflag":"false","vehicle":"bike"}},{"id":"840","fields":{"endflag":"false","vehicle":"bike"}},{"id":"841","fields":{"endflag":"false","vehicle":"bike"}},{"id":"842","fields":{"endflag":"false","vehicle":"bike"}},{"id":"843","fields":{"endflag":"false","vehicle":"bike"}},{"id":"844","fields":{"endflag":"false","vehicle":"bike"}},{"id":"845","fields":{"endflag":"false","vehicle":"bike"}},{"id":"846","fields":{"endflag":"false","vehicle":"bike"}},{"id":"847","fields":{"endflag":"false","vehicle":"bike"}},{"id":"848","fields":{"endflag":"false","vehicle":"bike"}},{"id":"849","fields":{"endflag":"false","vehicle":"bike"}},{"id":"850","fields":{"endflag":"false","vehicle":"bike"}},{"id":"851","fields":{"endflag":"false","vehicle":"bike"}},{"id":"852","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Südostasien
 tracks:
   - endflag: false

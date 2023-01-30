@@ -7,7 +7,7 @@ url: /listing/www-wachau-wien-und-wir/
 featured_image: DSC0872501.jpg
 attachments:
   - '{"tracks":[{"id":"271","fields":{"endflag":"false","vehicle":"bike"}},{"id":"272","fields":{"endflag":"false","vehicle":"bike"}},{"id":"273","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Österreich
 tracks:
   - endflag: false

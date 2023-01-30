@@ -7,7 +7,7 @@ url: /listing/sprachgrenzerfahrungen/
 featured_image: DSC0858302.jpg
 attachments:
   - '{"tracks":[{"id":"253","fields":{"endflag":"false","vehicle":"bike"}},{"id":"254","fields":{"endflag":"false","vehicle":"bike"}},{"id":"255","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Österreich
 tracks:
   - endflag: false

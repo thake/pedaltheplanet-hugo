@@ -7,7 +7,7 @@ url: /listing/radfahren-in-den-mai/
 featured_image: DSC0993702.jpg
 attachments:
   - '{"tracks":[{"id":"335","fields":{"endflag":"false","vehicle":"bike"}},{"id":"336","fields":{"endflag":"false","vehicle":"bike"}},{"id":"337","fields":{"endflag":"false","vehicle":"bike"}},{"id":"338","fields":{"endflag":"false","vehicle":"bike"}},{"id":"339","fields":{"endflag":"false","vehicle":"bike"}},{"id":"340","fields":{"endflag":"false","vehicle":"bike"}},{"id":"341","fields":{"endflag":"false","vehicle":"bike"}},{"id":"342","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Balkan
 tracks:
   - endflag: false

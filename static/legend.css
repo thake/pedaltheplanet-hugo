@@ -13,7 +13,7 @@ li {
     color: #2e3c43;
     position: absolute;
     margin-left: 10px;
-    #display: none;
+    display: none;
     width: 120px;
     height: auto;
     background: #fff;

@@ -5,6 +5,8 @@ description = 'Sabine und Thorsten auf Weltreise'
 theme = ["hugo-shortcode-gallery"]
 defaultContentLanguage = 'de'
 disqusShortname = 'pedaltheplanet'
+menu = 'main'
+paginate = 6
 [params]
     gallerySortOrder = 'asc'
     galleryRowHeight = '200'

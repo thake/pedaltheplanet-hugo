@@ -8,7 +8,7 @@ alias:
 featured_image: DSC0804501.jpg
 attachments:
   - '{"tracks":[{"id":"202","fields":{"endflag":"false","vehicle":"bike"}},{"id":"203","fields":{"endflag":"false","vehicle":"bike"}},{"id":"204","fields":{"endflag":"false","vehicle":"bike"}},{"id":"205","fields":{"endflag":"false","vehicle":"bike"}},{"id":"206","fields":{"endflag":"false","vehicle":"bike"}},{"id":"207","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Deutschland
 tracks:
   - endflag: false

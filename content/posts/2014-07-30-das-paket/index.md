@@ -7,7 +7,7 @@ url: /listing/das-paket/
 featured_image: DSC0232601.jpg
 attachments:
   - '{"tracks":[{"id":"510","fields":{"endflag":"false","vehicle":"bike"}},{"id":"511","fields":{"endflag":"false","vehicle":"bike"}},{"id":"512","fields":{"endflag":"false","vehicle":"bike"}},{"id":"513","fields":{"endflag":"false","vehicle":"bike"}},{"id":"514","fields":{"endflag":"false","vehicle":"bike"}},{"id":"516","fields":{"endflag":"false","vehicle":"bike"}},{"id":"517","fields":{"endflag":"true","vehicle":"bike"}},{"id":"519","fields":{"endflag":"false","vehicle":"bike"}},{"id":"982","fields":{"endflag":"false","vehicle":"car"}}]}'
-listing_type:
+categories:
   - Türkei
 tracks:
   - endflag: false

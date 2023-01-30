@@ -7,7 +7,7 @@ url: /listing/gastfreundliches-serbien/
 featured_image: DSC0967602.jpg
 attachments:
   - '{"tracks":[{"id":"323","fields":{"endflag":"false","vehicle":"bike"}},{"id":"324","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Balkan
 tracks:
   - endflag: false

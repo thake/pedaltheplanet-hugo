@@ -7,7 +7,7 @@ url: /listing/die-kleinen-hobbits-im-balkan/
 featured_image: DSC0005201.jpg
 attachments:
   - '{"tracks":[{"id":"354","fields":{"endflag":"false","vehicle":"bike"}},{"id":"355","fields":{"endflag":"false","vehicle":"bike"}},{"id":"356","fields":{"endflag":"false","vehicle":"bike"}},{"id":"357","fields":{"endflag":"false","vehicle":"bike"}},{"id":"358","fields":{"endflag":"false","vehicle":"bike"}},{"id":"359","fields":{"endflag":"false","vehicle":"bike"}},{"id":"360","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Balkan
 tracks:
   - endflag: false

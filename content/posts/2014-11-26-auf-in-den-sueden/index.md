@@ -7,7 +7,7 @@ url: /listing/auf-in-den-sueden/
 featured_image: DSC04605012.jpg
 attachments:
   - '{"tracks":[{"id":"742","fields":{"endflag":"false","vehicle":"bike"}},{"id":"743","fields":{"endflag":"false","vehicle":"bike"}},{"id":"744","fields":{"endflag":"false","vehicle":"bike"}},{"id":"745","fields":{"endflag":"false","vehicle":"bike"}},{"id":"746","fields":{"endflag":"false","vehicle":"bike"}},{"id":"748","fields":{"endflag":"false","vehicle":"bike"}},{"id":"749","fields":{"endflag":"false","vehicle":"bike"}},{"id":"750","fields":{"endflag":"false","vehicle":"bike"}},{"id":"751","fields":{"endflag":"false","vehicle":"bike"}},{"id":"752","fields":{"endflag":"false","vehicle":"bike"}},{"id":"753","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - China
   - Südostasien
 tracks:

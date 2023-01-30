@@ -7,7 +7,7 @@ url: /listing/turkmenistan/
 featured_image: DSC0323001.jpg
 attachments:
   - '{"tracks":[{"id":"585","fields":{"endflag":"false","vehicle":"bike"}},{"id":"586","fields":{"endflag":"false","vehicle":"bike"}},{"id":"587","fields":{"endflag":"false","vehicle":"bike"}},{"id":"588","fields":{"endflag":"false","vehicle":"bike"}},{"id":"590","fields":{"endflag":"false","vehicle":"bike"}},{"id":"592","fields":{"endflag":"false","vehicle":"bike"}},{"id":"593","fields":{"endflag":"false","vehicle":"bike"}},{"id":"594","fields":{"endflag":"false","vehicle":"bike"}},{"id":"595","fields":{"endflag":"true","vehicle":"bike"}},{"id":"596","fields":{"endflag":"false","vehicle":"car"}},{"id":"597","fields":{"endflag":"false","vehicle":"car"}},{"id":"605","fields":{"endflag":"false","vehicle":"bike"}},{"id":"606","fields":{"endflag":"false","vehicle":"bike"}},{"id":"604","fields":{"endflag":"false","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Zentralasien
 tracks:
   - endflag: false

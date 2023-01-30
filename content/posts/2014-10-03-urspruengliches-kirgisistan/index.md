@@ -7,7 +7,7 @@ url: /listing/urspruengliches-kirgisistan/
 featured_image: DSC0362801.jpg
 attachments:
   - '{"tracks":[{"id":"623","fields":{"endflag":"false","vehicle":"bike"}},{"id":"624","fields":{"endflag":"false","vehicle":"bike"}},{"id":"625","fields":{"endflag":"false","vehicle":"bike"}},{"id":"626","fields":{"endflag":"false","vehicle":"bike"}},{"id":"627","fields":{"endflag":"false","vehicle":"bike"}},{"id":"628","fields":{"endflag":"false","vehicle":"bike"}},{"id":"629","fields":{"endflag":"false","vehicle":"bike"}},{"id":"647","fields":{"endflag":"false","vehicle":"bike"}},{"id":"648","fields":{"endflag":"false","vehicle":"bike"}},{"id":"649","fields":{"endflag":"false","vehicle":"bike"}},{"id":"650","fields":{"endflag":"false","vehicle":"bike"}},{"id":"651","fields":{"endflag":"true","vehicle":"bike"}}]}'
-listing_type:
+categories:
   - Zentralasien
 tracks:
   - endflag: false
