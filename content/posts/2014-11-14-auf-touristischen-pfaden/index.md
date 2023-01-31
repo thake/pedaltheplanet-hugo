@@ -3,7 +3,6 @@ title: Auf touristischen Pfaden
 author: Thorsten
 type: post
 date: 2014-11-14T06:11:45+00:00
-url: /listing/auf-touristischen-pfaden/
 featured_image: DSC04437012.jpg
 attachments:
   - '{"tracks":[{"id":"724","fields":{"endflag":"false","vehicle":"bike"}},{"id":"725","fields":{"endflag":"false","vehicle":"bike"}},{"id":"726","fields":{"endflag":"false","vehicle":"bike"}},{"id":"727","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -22,6 +21,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-11-10-08-41-25.pbf
+slug: auf-touristischen-pfaden
+aliases:
+  - /listing/auf-touristischen-pfaden/
 ---
 Wir sind in Lijiang angekommen und haben unser Quartier in der Altstadt bezogen. Sind wir vorher über 20 Tage durch Regionen gefahren, die von Touristen sehr selten besucht werden, sind wir nun mit einem Mal in einer Welt voller Souvenirshops und Snackständen gelandet. Für uns mal wieder die Gelgenheit andere Reisende zu treffen, Cappuccinos zu trinken und das leichte Touristenleben zu genießen. Dazu gehörte für uns auch der Besuch der Tigersprung-Schlucht im Norden von Lijiang.
 

@@ -3,7 +3,6 @@ title: Die kleinen Hobbits im Balkan
 author: Thorsten
 type: post
 date: 2014-05-17T11:11:24+00:00
-url: /listing/die-kleinen-hobbits-im-balkan/
 featured_image: DSC0005201.jpg
 attachments:
   - '{"tracks":[{"id":"354","fields":{"endflag":"false","vehicle":"bike"}},{"id":"355","fields":{"endflag":"false","vehicle":"bike"}},{"id":"356","fields":{"endflag":"false","vehicle":"bike"}},{"id":"357","fields":{"endflag":"false","vehicle":"bike"}},{"id":"358","fields":{"endflag":"false","vehicle":"bike"}},{"id":"359","fields":{"endflag":"false","vehicle":"bike"}},{"id":"360","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -31,6 +30,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-05-15-09-05-20.pbf
+slug: die-kleinen-hobbits-im-balkan
+aliases:
+  - /listing/die-kleinen-hobbits-im-balkan/
 ---
 Wir sind am schwarzen Meer! Ein wichtiges erstes Zwischenziel ist erreicht und wir sind richtig stolz auf unsere Leistung! In Nessebur angekommen entspannen wir nun ein paar Tage inmitten des inzwischen für uns ungewohnten touristischen Trubels. Im Vergleich zum Bulgarien was wir mit dem Fahrrad kennengelernt haben, erscheint uns die Touristenhochburg am Schwarzen Meer skurril und wenig bulgarisch. In unserem wunderschönen Zimmer mit Meerblick (ein guter Geheimtipp für nur 22 € die Nacht, St. Georg&#8217;s Appartments) genießen wir unsere wohlverdiente Pause sehr. Unsere Muskeln wurden in den letzten Tagen wirklich sehr beantsprucht und benötigen Ruhe. Wir haben das Balkangebirge bezwungen und haben innerhalb einer Woche 4000 Höhenmeter gemacht. Für die Statistikfreunde ein kleiner Zwischenstand anhand unserer GPS-Tracks: Wir sind in 51 Fahrradtagen 3064 km (laut Bines Tacho 3153 km) in 193 Stunden gefahren. Dabei haben wir bei einer Durchschnittsgeschwindigkeit von 15,9 km/h 13756 Höhenmeter überwunden. Die letzte Woche hat unsere Muskeln und Willenskraft also noch einmal auf eine besondere Probe gestellt. Auf der anderen Seite haben uns die Menschen, denen wir begegnet sind, unglaublich motiviert &#8211; ja teilweise sogar beflügelt, so dass wir nun zwar leicht schmerzende Oberschenkel haben, aber mit einem Lächeln auf dem Gesicht gerne an die letzten Tage zurück denken.
 

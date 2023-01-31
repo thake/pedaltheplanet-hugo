@@ -3,7 +3,6 @@ title: Turkmenistan
 author: Thorsten
 type: post
 date: 2014-09-06T17:42:39+00:00
-url: /listing/turkmenistan/
 featured_image: DSC0323001.jpg
 attachments:
   - '{"tracks":[{"id":"585","fields":{"endflag":"false","vehicle":"bike"}},{"id":"586","fields":{"endflag":"false","vehicle":"bike"}},{"id":"587","fields":{"endflag":"false","vehicle":"bike"}},{"id":"588","fields":{"endflag":"false","vehicle":"bike"}},{"id":"590","fields":{"endflag":"false","vehicle":"bike"}},{"id":"592","fields":{"endflag":"false","vehicle":"bike"}},{"id":"593","fields":{"endflag":"false","vehicle":"bike"}},{"id":"594","fields":{"endflag":"false","vehicle":"bike"}},{"id":"595","fields":{"endflag":"true","vehicle":"bike"}},{"id":"596","fields":{"endflag":"false","vehicle":"car"}},{"id":"597","fields":{"endflag":"false","vehicle":"car"}},{"id":"605","fields":{"endflag":"false","vehicle":"bike"}},{"id":"606","fields":{"endflag":"false","vehicle":"bike"}},{"id":"604","fields":{"endflag":"false","vehicle":"bike"}}]}'
@@ -52,6 +51,9 @@ tracks:
   - endflag: false
     vehicle: bike
     file: tracks/2014-09-01-07-02-511.pbf
+slug: turkmenistan
+aliases:
+  - /listing/turkmenistan/
 ---
 Starker Gegenwind der uns enorm abbremst, schlechte Straßen die das Vorankommen beschwerlich machen, viel staubiger Sand der in unsere Gesichter gepustet wird, Wüstenlandschaften die wenig erholsamen Schatten bieten und fast kochendes Wasser in unseren Trinkflaschen, quälende Mücken an jeder Zeltstelle, Euphorie über erfolgreiches Windschattenfahren, Zweifel an der Sinnhaftigkeit aller Bemühungen und ein rettender LKW-Fahrer mitten im Nirgendwo &#8211; so lassen sich unsere 5 Tage durch Turkmenistan auf den Punkt bringen.
 

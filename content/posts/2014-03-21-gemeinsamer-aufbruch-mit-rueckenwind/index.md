@@ -3,7 +3,8 @@ title: Gemeinsamer Aufbruch mit Rückenwind
 author: Thorsten
 slug: gemeinsamer-aufbruch-mit-rueckenwind
 date: 2014-03-21T10:33:35+00:00
-alias:
+type: post
+aliases:
   - /listing/gemeinsamer-aufbruch-mit-rueckenwind/
 featured_image: DSC0804501.jpg
 attachments:

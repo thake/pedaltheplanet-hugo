@@ -3,7 +3,6 @@ title: Auf in den Süden
 author: Thorsten
 type: post
 date: 2014-11-26T14:14:26+00:00
-url: /listing/auf-in-den-sueden/
 featured_image: DSC04605012.jpg
 attachments:
   - '{"tracks":[{"id":"742","fields":{"endflag":"false","vehicle":"bike"}},{"id":"743","fields":{"endflag":"false","vehicle":"bike"}},{"id":"744","fields":{"endflag":"false","vehicle":"bike"}},{"id":"745","fields":{"endflag":"false","vehicle":"bike"}},{"id":"746","fields":{"endflag":"false","vehicle":"bike"}},{"id":"748","fields":{"endflag":"false","vehicle":"bike"}},{"id":"749","fields":{"endflag":"false","vehicle":"bike"}},{"id":"750","fields":{"endflag":"false","vehicle":"bike"}},{"id":"751","fields":{"endflag":"false","vehicle":"bike"}},{"id":"752","fields":{"endflag":"false","vehicle":"bike"}},{"id":"753","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -44,6 +43,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-11-25-07-53-56.pbf
+slug: auf-in-den-sueden
+aliases:
+  - /listing/auf-in-den-sueden/
 ---
 Wir haben China hinter uns gelassen und sind nun in Laos! Unglaublich auch für uns, dass wir schon so weit gekommen sind. Wir haben das Gefühl nun in dem entspannteren Teil unserer Reise mit viel Urlaubsfeeling angekommen zu sein. Auch das Klima hat sich innerhalb der letzten Tage sehr geändert, wir sind nun wirklich in den Subtropen und schwitzen, schwitzen, schwitzen sobald die Sonne sich einmal zeigt ;)
 

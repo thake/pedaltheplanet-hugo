@@ -3,7 +3,6 @@ title: ferner Süden – naher Westen
 author: Thorsten
 type: post
 date: 2015-03-11T22:06:35+00:00
-url: /listing/ferner-sueden-naher-westen/
 featured_image: DSC06321012.jpg
 attachments:
   - '{"tracks":[{"id":"922","fields":{"endflag":"false","vehicle":"car"}},{"id":"945","fields":{"endflag":"false","vehicle":"bike"}},{"id":"946","fields":{"endflag":"false","vehicle":"bike"}},{"id":"947","fields":{"endflag":"false","vehicle":"bike"}},{"id":"949","fields":{"endflag":"true","vehicle":"bike"}},{"id":"950","fields":{"endflag":"false","vehicle":"bike"}},{"id":"951","fields":{"endflag":"false","vehicle":"plane"}},{"id":"952","fields":{"endflag":"false","vehicle":"car"}}]}'
@@ -35,6 +34,9 @@ tracks:
   - endflag: false
     vehicle: car
     file: tracks/ZumFlughafenSingapur.pbf
+slug: ferner-sueden-naher-westen
+aliases:
+  - /listing/ferner-sueden-naher-westen/
 ---
 Wochen der extremsten Gegensätze liegen hinter uns. Wir haben uns in der reichsten Stadt Südostasiens von diesem sehr abwechslungsreichen Teil der Erde verabschiedet und sind wieder zurück nach Europa geflogen. Von der heiß-schwülen Luft und der warmen Gastfreundschaft nahe des Äquators sind wir von einem Flieger in das feucht-kühle März-Wetter und die zurückhaltendere europäische Freundlichkeit im Osten von Frankreich katapultiert worden. Den bunten Mix der Kulturen in Malaysia und Singapur haben wir innerhalb eines Tages gegen die uns bekannte Gesellschaft Europas eingetauscht.
 

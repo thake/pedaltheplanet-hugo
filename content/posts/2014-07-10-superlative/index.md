@@ -3,7 +3,6 @@ title: Superlative
 author: Sabine
 type: post
 date: 2014-07-10T13:05:38+00:00
-url: /listing/superlative/
 featured_image: DSC0187601.jpg
 attachments:
   - '{"tracks":[{"id":"458","fields":{"endflag":"false","vehicle":"bike"}},{"id":"459","fields":{"endflag":"false","vehicle":"bike"}},{"id":"460","fields":{"endflag":"false","vehicle":"bike"}},{"id":"461","fields":{"endflag":"false","vehicle":"bike"}},{"id":"462","fields":{"endflag":"false","vehicle":"bike"}},{"id":"463","fields":{"endflag":"false","vehicle":"bike"}},{"id":"464","fields":{"endflag":"false","vehicle":"bike"}},{"id":"465","fields":{"endflag":"false","vehicle":"bike"}},{"id":"466","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -37,6 +36,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-07-10-06-38-59.pbf
+slug: superlative
+aliases:
+  - /listing/superlative/
 ---
 Am höchsten, am schnellsten, am weitesten, am heißesten, am glücklichsten, am frühsten, am krankesten, am verrücktesten, &#8230; Wenn wir jetzt noch angestrengter nachdenken, würden uns bestimmt noch mehr Superlative einfallen, die unsere letzten Tage beschreiben. Wir haben gefühlt jeden Tag einen neuen Rekord aufgestellt und uns dabei gegenseitig so sehr motiviert &#8211; wir hatten sehr viel Spaß und das Fahrradfahren allein stand mal wieder im Fokus.
 

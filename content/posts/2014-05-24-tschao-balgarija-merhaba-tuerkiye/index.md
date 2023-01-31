@@ -3,7 +3,6 @@ title: Чао България, Merhaba Türkiye!
 author: Sabine
 type: post
 date: 2014-05-24T19:07:39+00:00
-url: /listing/tschao-balgarija-merhaba-tuerkiye/
 featured_image: DSC0049701.jpg
 attachments:
   - '{"tracks":[{"id":"370","fields":{"endflag":"false","vehicle":"bike"}},{"id":"371","fields":{"endflag":"false","vehicle":"bike"}},{"id":"372","fields":{"endflag":"false","vehicle":"bike"}},{"id":"373","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -23,6 +22,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-05-24-09-47-44.pbf
+slug: tschao-balgarija-merhaba-tuerkiye
+aliases:
+  - /listing/tschao-balgarija-merhaba-tuerkiye/
 ---
 Unsere letzten Tage waren ausnahmsweise mal etwas weniger ereignisreich! Wir haben uns am schwarzen Meer sehr viel ausgeruht und die Strände, das klare Meer und das tolle Wetter genossen &#8211; um unsere Muskeln anschließend auf dem Weg hinaus aus Bulgarien noch einmal so richtig zu beanspruchen.
 

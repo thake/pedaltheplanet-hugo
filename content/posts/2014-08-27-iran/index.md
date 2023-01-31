@@ -3,7 +3,6 @@ title: Iran
 author: Thorsten
 type: post
 date: 2014-08-27T18:52:52+00:00
-url: /listing/iran/
 featured_image: DSC0300401.jpg
 attachments:
   - '{"tracks":[{"id":"551","fields":{"endflag":"false","vehicle":"bike"}},{"id":"552","fields":{"endflag":"false","vehicle":"bike"}},{"id":"553","fields":{"endflag":"false","vehicle":"bike"}},{"id":"554","fields":{"endflag":"false","vehicle":"car"}},{"id":"555","fields":{"endflag":"false","vehicle":"bike"}},{"id":"556","fields":{"endflag":"false","vehicle":"car"}},{"id":"557","fields":{"endflag":"false","vehicle":"bike"}},{"id":"558","fields":{"endflag":"false","vehicle":"car"}},{"id":"559","fields":{"endflag":"false","vehicle":"bike"}},{"id":"560","fields":{"endflag":"false","vehicle":"bike"}},{"id":"561","fields":{"endflag":"false","vehicle":"car"}},{"id":"562","fields":{"endflag":"false","vehicle":"bike"}},{"id":"563","fields":{"endflag":"false","vehicle":"bike"}},{"id":"564","fields":{"endflag":"false","vehicle":"bike"}},{"id":"565","fields":{"endflag":"false","vehicle":"bike"}},{"id":"566","fields":{"endflag":"false","vehicle":"car"}},{"id":"567","fields":{"endflag":"false","vehicle":"bike"}},{"id":"568","fields":{"endflag":"false","vehicle":"car"}},{"id":"570","fields":{"endflag":"true","vehicle":"car"}}]}'
@@ -68,6 +67,9 @@ tracks:
   - endflag: true
     vehicle: car
     file: tracks/GpsiesTrack.pbf
+slug: iran
+aliases:
+  - /listing/iran/
 ---
 30 Tage im Iran liegen nun fast hinter uns. Unser Visum läuft aus und wir müssen uns von einem wirklich reisefreundlichen Land verabschieden mit interessanter Geschichte, großartiger Architektur und tollen Menschen. Wir haben in den letzten Wochen so viel Herzlichkeit und Gastfreundschaft erfahren. Wir haben das Gefühl, nun Familie im Iran zu haben :) So willkommen und umsorgt wie im Iran fühlten wir uns bisher in noch keinem Land zuvor. Wir haben so intensive Begegnungen mit vielen Menschen gehabt und so viele neue Erkenntnisse gewonnen. Im Iran sprechen viele Menschen sehr gut Englisch und das ist nicht auf ein gutes Bildungssystem zurückzuführen! Viele junge Iraner(innen) haben das Bestreben, im Ausland zu studieren und belegen daher auf private Kosten zusätzlich Englischkurse. Dieser Umstand erbrachte uns die Möglichkeit, uns mit den Menschen in diesem Land intensiv auszutauschen. Als generelles Resümee lässt sich wohl am besten sagen, dass die Menschen im Iran zum größten Teil nicht so konservativ wie ihre Regierung sind. Wir haben die Menschen sogar als sehr tolerant und offen kennengelernt. Ein sehr interessantes Phänomen ist beispielsweise die gelebte Auslegung der gesetzlich festgeschriebenen Verhüllung der Frau: Als Frau muss man im Iran ein Kopftuch und lange Kleidung tragen. Die Polizei achtet sogar auf die Befolgung dieses Gesetzes. Viele Frauen im Iran &#8220;protestieren&#8221; jedoch gegen diese Einschränkungen, indem sie ihr meist sehr farbenfrohes Kopftuch nur locker über den Kopf legen, so dass man ihre (sehr oft gefärbten) Haare zu einem großen Teil sehen kann und sehr figurbetonte Hosen und Oberteile tragen. Sehr sehr viele Menschen sind mit der Regierung aus vielen Gründen überhaupt nicht zufrieden und wünschen sich Veränderungen.  
 Wir müssen allerdings auch dazu sagen, dass die Eindrücke, die wir gewonnen haben sicherlich weniger repräsentativ für den gesamten Iran sind. Wir haben den Iran zum größten Teil mit dem Bus bereist, so dass wir vorrangig die großen Städte und deren Einwohner kennengelernt haben. In ländlichen Gegenden mögen die Menschen vielleicht auch ganz anders denken und urteilen.

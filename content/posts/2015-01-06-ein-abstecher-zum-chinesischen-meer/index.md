@@ -3,7 +3,6 @@ title: Ein Abstecher zum Chinesischen Meer
 author: Thorsten
 type: post
 date: 2015-01-06T10:46:56+00:00
-url: /listing/ein-abstecher-zum-chinesischen-meer/
 featured_image: DSC05072022.jpg
 attachments:
   - '{"tracks":[{"id":"835","fields":{"endflag":"false","vehicle":"bike"}},{"id":"836","fields":{"endflag":"false","vehicle":"bike"}},{"id":"837","fields":{"endflag":"false","vehicle":"bike"}},{"id":"838","fields":{"endflag":"false","vehicle":"bike"}},{"id":"839","fields":{"endflag":"false","vehicle":"bike"}},{"id":"840","fields":{"endflag":"false","vehicle":"bike"}},{"id":"841","fields":{"endflag":"false","vehicle":"bike"}},{"id":"842","fields":{"endflag":"false","vehicle":"bike"}},{"id":"843","fields":{"endflag":"false","vehicle":"bike"}},{"id":"844","fields":{"endflag":"false","vehicle":"bike"}},{"id":"845","fields":{"endflag":"false","vehicle":"bike"}},{"id":"846","fields":{"endflag":"false","vehicle":"bike"}},{"id":"847","fields":{"endflag":"false","vehicle":"bike"}},{"id":"848","fields":{"endflag":"false","vehicle":"bike"}},{"id":"849","fields":{"endflag":"false","vehicle":"bike"}},{"id":"850","fields":{"endflag":"false","vehicle":"bike"}},{"id":"851","fields":{"endflag":"false","vehicle":"bike"}},{"id":"852","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -64,6 +63,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2015-01-04-08-01-24.pbf
+slug: ein-abstecher-zum-chinesischen-meer
+aliases:
+  - /listing/ein-abstecher-zum-chinesischen-meer/
 ---
 Seit unserem letzten Reisebericht ist viel Zeit vergangen und so einige hundert Kilometer zählt unser Kilometerstand auf dem Tacho mehr. Von Vientiane sind wir ein Stück den Mekong herunter gefahren, um schon nach wenigen Tagen in Richtung Osten nach Vietnam abzubiegen. Innerhalb von 18 Tagen sind wir von Nordvietnam nach Südvietnam gefahren, haben unsere Füße ins wilde chinesische Meer gehalten, die Regenzeit in Zentralvietnam überstanden und viele Facetten des Landes kennengelernt. Und obwohl wir nun wieder weit weg vom chinesischen Meer sind, kommt hier in Kambodscha das absolute Urlaubsfeeling auf. Wir schlürfen Cocktails oder Fruchtshakes bei strahlendem Sonnenschein, während wir unter Palmen in der Hängematte schaukeln und den Blick über den kleinen See hier in Ban Lung schweifen lassen. Und nein, das ist jetzt nicht übertrieben! Wir sind tatsächlich mit dem Fahrrad bis in begehrte Winterurlaubs-Destinationen geradelt &#8211; ein unglaubliches Gefühl wenn wir auch nicht jeden Kilometer aus eigener Kraft bewältigt haben&#8230; wir sind trotzdem stolz!
 

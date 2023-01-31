@@ -3,7 +3,6 @@ title: Frühling in Süddeutschland
 author: Thorsten
 type: post
 date: 2014-03-28T14:50:50+00:00
-url: /listing/fruehling-in-sueddeutschland/
 featured_image: DSC0823701.jpg
 attachments:
   - '{"tracks":[{"id":"225","fields":{"endflag":"false","vehicle":"bike"}},{"id":"226","fields":{"endflag":"false","vehicle":"bike"}},{"id":"227","fields":{"endflag":"false","vehicle":"bike"}},{"id":"228","fields":{"endflag":"false","vehicle":"car"}},{"id":"229","fields":{"endflag":"false","vehicle":"bike"}},{"id":"230","fields":{"endflag":"false","vehicle":"bike"}},{"id":"231","fields":{"endflag":"false","vehicle":"bike"}},{"id":"232","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -34,6 +33,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-03-27-09-40-08.pbf
+slug: fruehling-in-sueddeutschland
+aliases:
+  - /listing/fruehling-in-sueddeutschland/
 ---
 Wir haben letzte Woche den Frühling in Deutschland genossen und ihn größtenteils für gut befunden &#8230; nur die Nächte, die sind uns noch zu kalt. Am eigenen Leib haben wir das während unserer ersten und bisher einzigen Zeltübernachtung gemerkt. Bei 2 °C Außentemperatur und Regen haben wir diese in Bayern auf einer Wiese bei Wegfurth verbracht. Auch müssen wir noch an unserer perfekten Durchlüftung des Zeltes arbeiten, wir haben die Lüftung in dieser Nacht vergessen und hatten daraufhin am nächsten Morgen ein kleines Feuchtbiotop im Zelt. Ansonsten war die Erfahrung des verbotenen &#8220;Wildcampens&#8221; sehr gut und uns wurde sogar am nächsten Morgen von einem freundlichen Dorfbewohner eine warme Dusche & Kaffee angeboten.
 

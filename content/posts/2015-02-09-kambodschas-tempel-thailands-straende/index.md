@@ -3,7 +3,6 @@ title: 'Kambodschas Tempel & Thailands Strände'
 author: Thorsten
 type: post
 date: 2015-02-09T16:41:40+00:00
-url: /listing/kambodschas-tempel-thailands-straende/
 featured_image: DSC0604901.jpg
 attachments:
   - '{"tracks":[{"id":"864","fields":{"endflag":"false","vehicle":"bike"}},{"id":"867","fields":{"endflag":"false","vehicle":"bike"}},{"id":"868","fields":{"endflag":"false","vehicle":"bike"}},{"id":"869","fields":{"endflag":"false","vehicle":"bike"}},{"id":"870","fields":{"endflag":"false","vehicle":"bike"}},{"id":"871","fields":{"endflag":"false","vehicle":"bike"}},{"id":"872","fields":{"endflag":"false","vehicle":"bike"}},{"id":"873","fields":{"endflag":"false","vehicle":"bike"}},{"id":"874","fields":{"endflag":"false","vehicle":"bike"}},{"id":"875","fields":{"endflag":"false","vehicle":"bike"}},{"id":"876","fields":{"endflag":"false","vehicle":"bike"}},{"id":"877","fields":{"endflag":"false","vehicle":"bike"}},{"id":"878","fields":{"endflag":"false","vehicle":"bike"}},{"id":"879","fields":{"endflag":"false","vehicle":"bike"}},{"id":"880","fields":{"endflag":"false","vehicle":"bike"}},{"id":"881","fields":{"endflag":"false","vehicle":"bike"}},{"id":"882","fields":{"endflag":"true","vehicle":"bike"}},{"id":"981","fields":{"endflag":"false","vehicle":"car"}},{"id":"883","fields":{"endflag":"false","vehicle":"car"}},{"id":"887","fields":{"endflag":"false","vehicle":"bike"}}]}'
@@ -70,6 +69,9 @@ tracks:
   - endflag: false
     vehicle: bike
     file: tracks/StungTreng.pbf
+slug: kambodschas-tempel-thailands-straende
+aliases:
+  - /listing/kambodschas-tempel-thailands-straende/
 ---
 In dem letzten Monat haben wir nicht nur das kleine und arme Land Kambodscha von Ost nach West durchquert, sondern sind mit dem Grenzübertritt nach Thailand und auf unserem Weg entlang der Küste in eine Welt eingetaucht, die wohl gegensätzlicher zum Rest unserer gesamten Reise nicht sein könnte: Wir verbringen gemütliche Tage auf dem Fahrrad während wir die flachen Küstenstraßen entlang rollen und faule Tage an atemberaubenden, endlosen Stränden, die wir oft nur mit wenigen anderen Touristen teilen müssen. Wir staunen meist nicht schlecht über den wirklich guten Standard, der dem europäischen schon sehr nah kommt und genießen das leckere und überall zu bekommende Thai-Essen. Thailand an sich steht wirtschaftlich schon recht gut da und der Süden, den wir näher erkunden, ist auch noch der reichere Teil des Landes! Von dem armen Kambodscha kommend, in dem der Luxus des Reisens ausschließlich Langnasen vorbehalten zu sein scheint und die Tourismusbranche in den Händen der Ausgewanderten der selben Spezies liegt, freuen wir uns in Thailand darüber, unsere kleinen Paradiese oft nur mit Thais zu teilen. Ein schöner Gedanke zu wissen, dass eine tolle Urlaubsdestination für einheimische Urlauber so einladend hergerichtet wurde und nicht ein &#8220;Disneyland&#8221; für westliche Touristen ist &#8211; halt einfach authentisch! Natürlich gibt es auch hier in Thailand davon Ausnahmen, zum Beispiel die Insel Koh Tao, die beliebt ist als günstiges Reiseziel für Taucher, oder solche, die welche werden wollen &#8211; so wie wir :)
 

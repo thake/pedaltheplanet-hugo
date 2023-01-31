@@ -3,7 +3,6 @@ title: Gemeinsames Radreisen verbindet
 author: Thorsten
 type: post
 date: 2014-04-16T16:32:38+00:00
-url: /listing/gemeinsames-radreisen-verbindet/
 featured_image: DSC0916101.jpg
 attachments:
   - '{"tracks":[{"id":"293","fields":{"endflag":"false","vehicle":"bike"}},{"id":"294","fields":{"endflag":"false","vehicle":"bike"}},{"id":"295","fields":{"endflag":"false","vehicle":"bike"}},{"id":"296","fields":{"endflag":"false","vehicle":"bike"}},{"id":"297","fields":{"endflag":"false","vehicle":"bike"}},{"id":"298","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -28,6 +27,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-04-16-11-17-51.pbf
+slug: gemeinsames-radreisen-verbindet
+aliases:
+  - /listing/gemeinsames-radreisen-verbindet/
 ---
 Die letzten Tage sind irgendwie wie im Fluge vergangen und wir sitzen nun hier in unserer Ferienwohnung mitten im Herzen von Budapest. Es ist schon unsere zweite Ferienwohnung in Budapest, da wir uns gestern morgen spontan dazu entschieden haben, eine weitere Nacht in Budapest zu bleiben um noch ein wenig zu entspannen. Obwohl wir eigentlich sehr viel Zeit haben, kommen wir nicht immer dazu alles zu schaffen oder zu machen was wir uns vornehmen (wie zum Beispiel posten!). Es gibt immer sehr viel Anderes zu tun :) Vor allem eins: Fahrradfahren! Dass wir da nicht die Einzigen sind, die diese Art zu Reisen angenehm finden, war uns vorher schon bewusst. Aber wie viele es sind, hat sich erst nach Wien gezeigt. Innerhalb von 2 Tagen haben wir schon eine kleine Biker-Gang gegründet ;) Hier in Budapest waren wir sogar für einen kurzen Moment zu 6.! Lili und Dani haben wir in Bratislava per Zufall getroffen. Wir kamen gerade in Bratislava an, da wurden wir von Lili angesprochen. Sie erkundete gerade alleine die Stadt und hat uns zufällig gesehen wie wir gerade von der Brücke des slowakischen Nationalaufstandes in die Altstadt von Bratislava einrollten. Da die beiden sich schon wieder am nächsten Tag auf den Drahtesel geschwungen haben, tauschten wir die Kontaktdaten aus und machten ein Treffen für Budapest aus. Mehdi haben wir dann nach Bratislava aufgegabelt und Chris haben wir kurz in Budapest auf der Straße getroffen. Wir sind gespannt wie viele Radfahrer wir bis zur Türkei treffen werden :) Scheint bis dahin eine Radreise-Autobahn zu sein.
 

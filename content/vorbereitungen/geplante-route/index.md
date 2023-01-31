@@ -16,6 +16,8 @@ tracks:
     vehicle: plane
     file: tracks/plane.pbf
 #date: 2014-01-05T12:23:46+00:00
+aliases:
+  - /geplante-route
 featured_image: DSC05297a1-e1389298529430.jpg
 
 ---

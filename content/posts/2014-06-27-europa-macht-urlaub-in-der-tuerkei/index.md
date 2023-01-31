@@ -3,7 +3,6 @@ title: Europa macht Urlaub in der Türkei
 author: Sabine
 type: post
 date: 2014-06-27T11:39:25+00:00
-url: /listing/europa-macht-urlaub-in-der-tuerkei/
 featured_image: DSC0166501.jpg
 attachments:
   - '{"tracks":[{"id":"429","fields":{"endflag":"false","vehicle":"bike"}},{"id":"430","fields":{"endflag":"false","vehicle":"bike"}},{"id":"431","fields":{"endflag":"false","vehicle":"bike"}},{"id":"432","fields":{"endflag":"false","vehicle":"bike"}},{"id":"433","fields":{"endflag":"false","vehicle":"bike"}},{"id":"434","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -28,6 +27,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-06-26-09-03-14.pbf
+slug: europa-macht-urlaub-in-der-tuerkei
+aliases:
+  - /listing/europa-macht-urlaub-in-der-tuerkei/
 ---
 Zu anhaltender religiöser Dauermusik über Allah, welche aus den Lautsprechern der Minarette über das karge Land um uns herum schallt, schreiben wir heute unseren Blogpost. Heute ist der letzte Tag vor Ramadan (türkisch Ramazan, gesprochen Ramasan) und alles dreht sich um dieses Fest, alle reden davon. Wir fragen uns nur, wie wird es werden? Voller aufgeregter Spannung erwarten auch wir dieses Fest und hoffen, dass es im nächsten Monat für uns keine Nahrungsbeschaffungsprobleme geben wird. Im Islam wird während des Ramadans für einen Monat während des Tages gefastet &#8211; sowohl essen als auch trinken ist untersagt. Die erste Mahlzeit des Tages wird deshalb um 4 oder 5 Uhr morgens eingenommen und abends nach Sonnenuntergang kommt dann die ganze Familie oder das ganze Dorf zusammen, um sich gemeinsam die Bäuche mit leckerem türkischen Essen voll zu schlagen. So wurde uns Ramadan zumindest immer wieder von den Türken beschrieben. Auch der Sinn dieser zunächst völlig übertrieben erscheinenden Quälerei wurde uns in vielen Gesprächen klar: Zum einen wird so der Glaube zu Allah demonstriert, zum anderen lässt dieses Fest Arm und Reich näher zusammen rücken. Durch das Fasten können reiche Menschen das Hungergefühl armer Menschen nachempfinden und am Ende von Ramadan spenden reiche Familien ein Tier, welches geschlachtet wird, um es anschließend armen Familien zu schenken. Vor allem dieses soziale Denken hinter dem Fest Ramadan ist es, was uns daran gefällt. Nach Vorhersage vieler Türken wird uns das Fest aber auch wegen der üppigen Festessen nach Sonnenuntergang gefallen. Wir sind gespannt!
 

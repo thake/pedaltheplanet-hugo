@@ -3,7 +3,6 @@ title: Sprachgrenzerfahrungen
 author: Thorsten
 type: post
 date: 2014-04-04T07:19:02+00:00
-url: /listing/sprachgrenzerfahrungen/
 featured_image: DSC0858302.jpg
 attachments:
   - '{"tracks":[{"id":"253","fields":{"endflag":"false","vehicle":"bike"}},{"id":"254","fields":{"endflag":"false","vehicle":"bike"}},{"id":"255","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -19,6 +18,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-04-03-08-48-35.pbf
+slug: sprachgrenzerfahrungen
+aliases:
+  - /listing/sprachgrenzerfahrungen/
 ---
 Unsere Verabschiedung aus Passau wurde spontan noch einmal so richtig schweißtreibend. Mit Blick auf einen leichten Radfahrtag auf dem flachen Donauradweg entschieden wir, dass wir die &#8220;nur noch wenigen Höhenmeter&#8221; &#8211; so sagte die Rezeptionistin und auch Thorsten mit Blick auf sein GPS-Tacho &#8211; bis zur Passauer Burg gerne für einen schönen Blick auf uns nehmen wollten. Aus den 40 Höhenmetern wurden aber schnell 100&#8230; Hm, irgendwie hatten wir uns da wohl vertan. Wieder ein wenig mehr über das korrekte Lesen des GPS-Tacho gelernt ;) . Die Anstrengung hat sich aber wirklich gelohnt, wir wurden mit einem schönen Abschiedspanorama über Passau belohnt.
 

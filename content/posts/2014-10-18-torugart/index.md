@@ -3,7 +3,6 @@ title: Torugart
 author: Thorsten
 type: post
 date: 2014-10-18T15:33:13+00:00
-url: /listing/torugart/
 featured_image: DSC0374401.jpg
 attachments:
   - '{"tracks":[{"id":"658","fields":{"endflag":"false","vehicle":"car"}},{"id":"659","fields":{"endflag":"false","vehicle":"car"}},{"id":"660","fields":{"endflag":"false","vehicle":"car"}},{"id":"661","fields":{"endflag":"false","vehicle":"car"}},{"id":"662","fields":{"endflag":"false","vehicle":"car"}},{"id":"663","fields":{"endflag":"false","vehicle":"bike"}},{"id":"664","fields":{"endflag":"false","vehicle":"bike"}},{"id":"665","fields":{"endflag":"false","vehicle":"bike"}},{"id":"666","fields":{"endflag":"false","vehicle":"bike"}},{"id":"667","fields":{"endflag":"false","vehicle":"bike"}},{"id":"668","fields":{"endflag":"false","vehicle":"bike"}},{"id":"669","fields":{"endflag":"false","vehicle":"bike"}},{"id":"670","fields":{"endflag":"false","vehicle":"bike"}},{"id":"671","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -60,6 +59,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-10-16-18-54-53.pbf
+slug: torugart
+aliases:
+  - /listing/torugart/
 ---
  
 

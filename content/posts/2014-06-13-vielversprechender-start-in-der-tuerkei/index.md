@@ -3,7 +3,6 @@ title: Vielversprechender Start in der Türkei
 author: Thorsten
 type: post
 date: 2014-06-13T07:54:01+00:00
-url: /listing/vielversprechender-start-in-der-tuerkei/
 featured_image: DSC0060501.jpg
 attachments:
   - '{"tracks":[{"id":"378","fields":{"endflag":"false","vehicle":"bike"}},{"id":"379","fields":{"endflag":"false","vehicle":"bike"}},{"id":"380","fields":{"endflag":"false","vehicle":"bike"}},{"id":"381","fields":{"endflag":"false","vehicle":"bike"}},{"id":"382","fields":{"endflag":"false","vehicle":"bike"}},{"id":"383","fields":{"endflag":"false","vehicle":"bike"}},{"id":"384","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -31,6 +30,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-06-08-10-31-04.pbf
+slug: vielversprechender-start-in-der-tuerkei
+aliases:
+  - /listing/vielversprechender-start-in-der-tuerkei/
 ---
 Wir sind in der Türkei angekommen, aber so richtig! Wir haben in den letzten drei Wochen so viele unglaublich tolle Menschen kennengelernt, intensive Einblicke in das Leben der Menschen und die Kultur bekommen, unsere Sprachkenntnisse erweitert und uns wieder und wieder gefragt, warum uns immer wieder so viel Gutes geschieht! Wir haben mittlerweile begriffen, dass die Suche nach dem Grund für die uns entgegengebrachte Gastfreundschaft und Freundlichkeit nur etwas für unsere deutschen Köpfe ist. Für die meisten Menschen in der Türkei ist Gastfreundschaft ganz selbstverständlich, sie macht den Menschen scheinbar einfach Freude. Im Gegenzug reicht unser noch sehr basales Türkisch und wir zaubern den Menschen ein Lächeln ins Gesicht, das macht auch uns immer wieder Spaß :)
 

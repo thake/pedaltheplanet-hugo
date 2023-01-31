@@ -3,7 +3,6 @@ title: Das Paket
 author: Sabine
 type: post
 date: 2014-07-30T16:14:14+00:00
-url: /listing/das-paket/
 featured_image: DSC0232601.jpg
 attachments:
   - '{"tracks":[{"id":"510","fields":{"endflag":"false","vehicle":"bike"}},{"id":"511","fields":{"endflag":"false","vehicle":"bike"}},{"id":"512","fields":{"endflag":"false","vehicle":"bike"}},{"id":"513","fields":{"endflag":"false","vehicle":"bike"}},{"id":"514","fields":{"endflag":"false","vehicle":"bike"}},{"id":"516","fields":{"endflag":"false","vehicle":"bike"}},{"id":"517","fields":{"endflag":"true","vehicle":"bike"}},{"id":"519","fields":{"endflag":"false","vehicle":"bike"}},{"id":"982","fields":{"endflag":"false","vehicle":"car"}}]}'
@@ -37,6 +36,9 @@ tracks:
   - endflag: false
     vehicle: car
     file: tracks/TaxiGueroymakNemrut.pbf
+slug: das-paket
+aliases:
+  - /listing/das-paket/
 ---
 Nach dem zweiten Schaltzug-Riss kurz hinter Istanbul &#8211; also kurz hinter dem letzten Rohloff-Händler! Perfekt! &#8211; hatten wir im Internet Ersatzteile für unsere Rohloff-Nabe bestellt. Da man aber ja als Radreisender keine feste Adresse hat, bleibt einem nichts anderes übrig, als die bestellten Dinge von beispielsweise den Eltern postlagernd in eine Stadt schicken zu lassen, durch die man in jedem Fall hindurch fahren muss. Für uns war das die letzte große Stadt in der Türkei kurz vor der iranischen Grenze: Van. Das ganze hört sich ja so einfach an und man könne nun einen unkomplizierten Ablauf erwarten&#8230; Aber ihr ahnt es schon.. Wenn dieser Beitrag sogar den Namen trägt, muss wohl mehr hinter diesem PAKET stecken.
 

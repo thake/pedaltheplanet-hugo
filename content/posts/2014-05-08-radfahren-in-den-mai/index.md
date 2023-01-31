@@ -3,7 +3,6 @@ title: Radfahren in den Mai
 author: Thorsten
 type: post
 date: 2014-05-08T12:38:49+00:00
-url: /listing/radfahren-in-den-mai/
 featured_image: DSC0993702.jpg
 attachments:
   - '{"tracks":[{"id":"335","fields":{"endflag":"false","vehicle":"bike"}},{"id":"336","fields":{"endflag":"false","vehicle":"bike"}},{"id":"337","fields":{"endflag":"false","vehicle":"bike"}},{"id":"338","fields":{"endflag":"false","vehicle":"bike"}},{"id":"339","fields":{"endflag":"false","vehicle":"bike"}},{"id":"340","fields":{"endflag":"false","vehicle":"bike"}},{"id":"341","fields":{"endflag":"false","vehicle":"bike"}},{"id":"342","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -34,6 +33,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-05-07-08-00-02.pbf
+slug: radfahren-in-den-mai
+aliases:
+  - /listing/radfahren-in-den-mai/
 ---
 Als wir in Belgrad losfahren, ist es für die Serben der letzte Arbeitstag vor einem langen Wochenende. Von Miloš haben wir am Abend zuvor erfahren, dass der erste Mai in Serbien ein Volksfeiertag ist, der gerne mit Campen und Grillen im Freien verbracht wird. Dies bereitete uns hohe Konkurrenz auf der Suche nach einem schönen Wildcamping-Platz, wir waren nicht mehr die Einzigen ;) Die Stimmung derer, die wir auf unserem holprigen Weg getroffen haben, war sehr ausgelassen und freundlich. Es herrschte allgemeine Feierlaune trotz des langsam immer regnerischer werdenden Wetters. So werden wir von einem heranziehenden Gewitter in ein Restaurant getrieben, wo wir noch einmal der serbischen Küche eine Chance geben wollen. Für Sabine ist es wahrlich nicht einfach, ein Gericht zu finden. Die serbischen Speisekarten bestehen aus verschiedenen Variationen von Fleisch mit (sehr wenig) Pommes und das meist mit sehr viel Fett. Kreativität zeigt sich darin, dass es manchmal Fleisch mit Fleisch gefüllt gibt. Wir freuen uns jedes Mal darauf, selber unsere Outdoor-Kochkünste walten zu lassen: Endlich wieder Gemüse! Es gibt viel regionales Gemüse in kleinen Supermärkten in jedem Dorf zu kaufen. Doch auch, wenn uns die traditionelle serbische Küche bis zum Schluss nicht gewinnen konnte, die Mentalität der Serben mochten wir sehr: Ein so hilfsbereites, offenes und fröhliches Volk haben wir selten erlebt. Wir sind froh, dass uns unser Weg durch dieses uns zuvor eher durch Konfliktnachrichten bekannte Land geführt hat. Ein passender Abschied von Serbien wurde uns von einem netten Mann bei regnerischem Wetter beschert: Er lud uns zu Tee ein und wir konnten uns aufwärmen und trocknen. Auf Deutsch (!) unterhielten wir uns über das Leben in seinem Dorf. Immer wieder während unserer Zeit in Serbien waren wir erstaunt darüber, wie viele Serben Deutsch sprachen. Dass sich nun auch in diesem wirklich kleinen Dorf jemand fand, der Deutsch sprach, erstaunte uns noch mehr. Im Gespräch mit dem Dorfbewohner fanden wir dafür schnell eine Erklärung: In den Dörfern gibt es ganz einfach keinerlei Möglichkeiten, eine vernünftige und regelmäßige Arbeit zu finden &#8211; schon gar nicht ist an eine Ausbildung wie wir sie kennen zu denken! Aus diesem Grund gehen viele Serben z.B. nach Deutschland, um dort zu arbeiten und manchmal auch dauerhaft zu leben. Wir sind auf unserem Weg durch viele Dörfer gekommen und stimmen zu: hier gibt es wirklich NICHTS. Junge Menschen sind uns auch selten begegnet &#8211; auf Dauer ein wirkliches Problem!
 

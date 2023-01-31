@@ -3,7 +3,6 @@ title: WWW – Wachau, Wien und Wir
 author: Thorsten
 type: post
 date: 2014-04-08T10:26:56+00:00
-url: /listing/www-wachau-wien-und-wir/
 featured_image: DSC0872501.jpg
 attachments:
   - '{"tracks":[{"id":"271","fields":{"endflag":"false","vehicle":"bike"}},{"id":"272","fields":{"endflag":"false","vehicle":"bike"}},{"id":"273","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -19,6 +18,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-04-06-09-45-29.pbf
+slug: www-wachau-wien-und-wir
+aliases:
+  - /listing/www-wachau-wien-und-wir/
 ---
 Obwohl unser letzter Post gerade einmal 4 Tage alt ist, gibt es schon wieder so viel zu berichten! Die Erlebnisse weniger Tage aufzuschreiben und gedanklich zu sortieren kommt einem so vor, als würde man einen ganzen Monat Revue passieren lassen. Heute haben wir aber wirklich Ruhe, dies zu tun. Wir haben uns für 3 Nächte ins Hostel in Wien eingemietet (für uns Radfahrer gabs mal wieder ein kostenloses Upgrade: extra großes Zimmer, so dass wir unsere Fahrräder mit hinein nehmen können!) und sitzen bei strahlendem Sonnenschein in der Hostel-Bar (drinnen) und freuen uns über den wenig ereignisreichen Tag.. Sowohl Kopf als auch Beine können heute entspannen :-)
 

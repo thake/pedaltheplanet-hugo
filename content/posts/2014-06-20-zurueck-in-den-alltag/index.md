@@ -3,7 +3,6 @@ title: Zurück in den Alltag
 author: Thorsten
 type: post
 date: 2014-06-20T17:17:40+00:00
-url: /listing/zurueck-in-den-alltag/
 featured_image: DSC0154201.jpg
 attachments:
   - '{"tracks":[{"id":"400","fields":{"endflag":"false","vehicle":"bike"}},{"id":"401","fields":{"endflag":"false","vehicle":"bike"}},{"id":"402","fields":{"endflag":"false","vehicle":"bike"}},{"id":"403","fields":{"endflag":"false","vehicle":"bike"}},{"id":"405","fields":{"endflag":"false","vehicle":"bike"}},{"id":"406","fields":{"endflag":"false","vehicle":"bike"}},{"id":"407","fields":{"endflag":"true","vehicle":"bike"}},{"id":"408","fields":{"endflag":"false","vehicle":"car"}}]}'
@@ -34,6 +33,9 @@ tracks:
   - endflag: false
     vehicle: car
     file: tracks/Istanbul-bursaFerry.pbf
+slug: zurueck-in-den-alltag
+aliases:
+  - /listing/zurueck-in-den-alltag/
 ---
 Die ersten Tage nach 2 wirklich faulen Wochen in Istanbul waren verdammt hart für uns. Wir fühlten uns, als hätten wir die Kilometer bis nach Istanbul nicht mit dem Fahrrad hinter uns gelegt: Der Körper schien alles vergessen zu haben, jede Steigung war anstrengend, unseren Rhythmus mussten wir erst einmal wiederfinden. Nach 5 vollen Tagen auf dem Fahrrad sind wir nun aber wieder in unserem Radreise-Alltag angekommen und erfreuen uns sehr an der abwechslungsreichen Natur und den freundlichen Menschen der Türkei.
 

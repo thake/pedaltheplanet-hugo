@@ -4,7 +4,7 @@ author: Thorsten
 slug: geplante-route
 date: 2014-01-04T10:41:45+00:00
 type: post
-alias:
+aliases:
   - /listing/geplante-route/
 featured_image: DSC06418_small.jpg
 categories:  

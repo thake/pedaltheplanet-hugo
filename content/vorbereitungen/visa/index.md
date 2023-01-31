@@ -7,6 +7,8 @@ menu:
     parent: vorbereitungen
 #date: 2014-07-13T14:45:52+00:00
 featured_image: DSC02117012.jpg
+aliases:
+  - /visa
 
 ---
 Für die meisten Länder außerhalb der EU benötigen wir Visa. Die Beantragung ist je nach Land mit mehr oder weniger Aufwand verbunden. Im Internet finden sich bereits viele Tipps zu den jeweiligen Visa-Prozessen. Da sich allerdings die Prozesse und Bedingungen schnell ändern können, führen wir hier unsere aktuellen Erfahrungen auf. Alle Länder die wir bereist haben und hier nicht aufführen, konnten wir ohne Visa bereisen.

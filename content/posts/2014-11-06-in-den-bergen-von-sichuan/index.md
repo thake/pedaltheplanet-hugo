@@ -3,7 +3,6 @@ title: In den Bergen von Sichuan
 author: Sabine
 type: post
 date: 2014-11-06T10:49:05+00:00
-url: /listing/in-den-bergen-von-sichuan/
 featured_image: DSC0433701.jpg
 attachments:
   - '{"tracks":[{"id":"696","fields":{"endflag":"false","vehicle":"bike"}},{"id":"697","fields":{"endflag":"false","vehicle":"bike"}},{"id":"698","fields":{"endflag":"false","vehicle":"bike"}},{"id":"699","fields":{"endflag":"false","vehicle":"bike"}},{"id":"700","fields":{"endflag":"false","vehicle":"bike"}},{"id":"701","fields":{"endflag":"false","vehicle":"bike"}},{"id":"702","fields":{"endflag":"false","vehicle":"bike"}},{"id":"703","fields":{"endflag":"false","vehicle":"bike"}},{"id":"704","fields":{"endflag":"false","vehicle":"bike"}},{"id":"705","fields":{"endflag":"false","vehicle":"bike"}},{"id":"706","fields":{"endflag":"false","vehicle":"bike"}},{"id":"707","fields":{"endflag":"false","vehicle":"bike"}},{"id":"709","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -49,6 +48,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-11-05-09-42-54.pbf
+slug: in-den-bergen-von-sichuan
+aliases:
+  - /listing/in-den-bergen-von-sichuan/
 ---
 Seit etwa 2 Wochen radeln wir nun durch die grünen Berge im Südosten Chinas. Wir haben hier unsere sportliche Herausforderung gefunden! 1000 Höhenmeter an einem Tag zu erklimmen, ist normal für uns geworden. Wir staunen immer wieder am Ende eines Tages über unsere Leistung, schauen dann auf unsere wachsenden Bäuche (das chinesische Essen ist gefährlich lecker!) und fragen uns, wie das alles zusammen passt ;) China stand bei unserer ursprünglichen Planung überhaupt nicht auf der Liste der Länder, die wir bereisen wollten. Auch hatten wir uns nie besonders auf dieses Land gefreut. Nach einem Monat in diesem Land sind wir aber sehr positiv überrascht und froh, einige Vorurteile gegebenüber dem Land und den Leuten abgebaut zu haben.
 

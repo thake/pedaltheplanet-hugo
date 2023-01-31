@@ -3,7 +3,6 @@ title: 4 Freunde
 author: Sabine
 type: post
 date: 2014-04-24T15:47:17+00:00
-url: /listing/4-freunde/
 featured_image: DSC0927001.jpg
 attachments:
   - '{"tracks":[{"id":"305","fields":{"endflag":"false","vehicle":"bike"}},{"id":"306","fields":{"endflag":"false","vehicle":"bike"}},{"id":"307","fields":{"endflag":"false","vehicle":"bike"}},{"id":"308","fields":{"endflag":"false","vehicle":"bike"}},{"id":"309","fields":{"endflag":"false","vehicle":"bike"}},{"id":"310","fields":{"endflag":"false","vehicle":"bike"}},{"id":"311","fields":{"endflag":"false","vehicle":"bike"}},{"id":"312","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -35,6 +34,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-04-24-11-04-54.pbf
+slug: 4-freunde
+aliases:
+  - /listing/4-freunde/
 ---
 Die letzten Tage waren genau so, wie wir uns unsere Reise mit dem Fahrrad durch die Welt vorgestellt haben. Einmal aus Budapest raus, waren die Fahrradwege und die kleineren Straßen deutlich schwerer zu befahren. Unsere Fahrräder bestanden den Buckelpistentest mit sehr gut! Breite Reifen und 26 Zoll waren die richtige Entscheidung :) Außerdem kommt unser Zelt nun sehr regelmäßig zum Einsatz. Wir durchfahren meist kleine und verschlafene Dörfer. Hier eine Unterkunft zu finden ist zwar bestimmt möglich, aber deutlich schwieriger als noch in Deutschland oder Österreich. Es ist immer ein sehr beruhigender Gedanke, dass man seine Unterkunft für die nächste Nacht bereits mit sich trägt. Wir sind absolut unabhängig! Die Nächte im Zelt sind mittlerweile auch deutlich einfacher, wir schlafen mittlerweile so ruhig und werden nicht mehr von jedem kleinsten Geräusch wach. Auch werden die Nächte deutlich wärmer, meist ist es so ca. 5-10°C. Sicherlich ist auch die Gesellschaft von Lili und Dani ein sehr beruhigender Gedanke &#8211; den beiden geht es genau so :)
 

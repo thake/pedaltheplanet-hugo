@@ -3,7 +3,6 @@ title: Gastfreundliches Serbien
 author: Thorsten
 type: post
 date: 2014-04-29T21:11:08+00:00
-url: /listing/gastfreundliches-serbien/
 featured_image: DSC0967602.jpg
 attachments:
   - '{"tracks":[{"id":"323","fields":{"endflag":"false","vehicle":"bike"}},{"id":"324","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -16,6 +15,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-04-27-09-43-03.pbf
+slug: gastfreundliches-serbien
+aliases:
+  - /listing/gastfreundliches-serbien/
 ---
 Nach dem etwas holprigen Start in Serbien haben wir uns in den letzten Tagen mit Serbien angefreundet. Es gefällt uns hier wirklich sehr gut! Es scheint, die oberste Regel eines Serben ist: Sei ein guter Gastgeber! Sobald wir irgendwo mit unseren schwer beladenen Fahrrädern anhalten, sprechen uns freundliche Menschen an, um uns ihre Hilfe anzubieten. Manchmal werden uns die Wünsche einfach von den Augen abgelesen! Die Hilfe die uns entgegengebracht wird ist an keinerlei Bedingungen geknüpft, die Menschen freuen sich einfach uns helfen zu können. Wenn wir dann erzählen, dass wir aus Deutschland kommen, merken wir, dass die Leute ein sehr positives Bild vom Leben und vor allem Arbeiten in Deutschland haben. Hier ist man richtig froh, überhaupt eine Arbeit zu haben, bei einer Arbeitslosenquote zwischen 20 und 25 %.
 

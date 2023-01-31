@@ -3,7 +3,6 @@ title: Coming home
 author: Thorsten
 type: post
 date: 2015-09-16T18:59:08+00:00
-url: /listing/coming-home/
 featured_image: beitrags_cover.jpg
 attachments:
   - '{"tracks":[{"id":"962","fields":{"endflag":"false","vehicle":"bike"}},{"id":"963","fields":{"endflag":"false","vehicle":"bike"}},{"id":"964","fields":{"endflag":"false","vehicle":"bike"}},{"id":"965","fields":{"endflag":"false","vehicle":"bike"}},{"id":"966","fields":{"endflag":"false","vehicle":"bike"}},{"id":"967","fields":{"endflag":"false","vehicle":"bike"}},{"id":"968","fields":{"endflag":"false","vehicle":"bike"}},{"id":"969","fields":{"endflag":"false","vehicle":"bike"}},{"id":"970","fields":{"endflag":"false","vehicle":"bike"}},{"id":"971","fields":{"endflag":"false","vehicle":"bike"}},{"id":"972","fields":{"endflag":"false","vehicle":"bike"}},{"id":"973","fields":{"endflag":"false","vehicle":"bike"}},{"id":"974","fields":{"endflag":"false","vehicle":"bike"}},{"id":"975","fields":{"endflag":"true","vehicle":"bike"}},{"id":"976","fields":{"endflag":"false","vehicle":"car"}}]}'
@@ -56,6 +55,9 @@ tracks:
   - endflag: false
     vehicle: car
     file: tracks/TrainHome1.pbf
+slug: coming-home
+aliases:
+  - /listing/coming-home/
 ---
 <span style="font-weight: 400;">Unser letzter Reisebericht. Ein letztes Mal die Fotos, die viele Erinnerungen wach rufen, durchschauen und sortieren. Ein letztes Mal das Erlebte detailliert niederschreiben. Fast wehmütig sitzen wir vor unserem kleinen Tablet in unserem Lieblingscafé in Bochum, wo wir die nun sehr viel seltener gewordene&nbsp;Freizeit genießen. Wir sind angekommen in dem &#8220;anderen&#8221; Leben. Wir haben uns wieder an vieles, was vor unsere Reise so selbstverständlich war, gewöhnt und beginnen, uns neu zu orientieren. Wohnungs- und Jobsuche und damit den Sprung in den normalen Alltag haben wir erfolgreich hinter uns gebracht und unsere zurückliegende Reise auf dem Fahrrad rückt in den Hintergrund. In diesem Leben, welches so einnehmend und schnell ist, muss man immer wieder ganz bewusst die Zeit finden, sich zurückzuerinnern. Deswegen hat es auch richtig lange gebraucht, bis wir die nötige&nbsp;Zeit und&nbsp;Ruhe hatten, diesen letzten Reisebericht zu verfassen. Vor allem jetzt, da uns der schnelllebige Alltag voll im Griff hat, blicken wir sehnsüchtig zurück auf unseren stressfreien und absolut entschleunigten Alltag, den wir im letzten Jahr so genossen haben. </span><span style="font-weight: 400;">Wenn wir eine Fahrradtour bei schönem Wetter unternehmen, fällt es manchmal schwer, diese Runde wirklich wieder am Startpunkt zu beenden. Es wird sicherlich noch lange dauern und viel Organisation bedürfen, bis wir wieder 100% verwurzelt sind und uns nicht nach der unbekannten Ferne sehnen.</span>
 

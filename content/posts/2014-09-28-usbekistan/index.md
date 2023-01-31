@@ -3,7 +3,6 @@ title: Usbekistan
 author: Thorsten
 type: post
 date: 2014-09-28T11:28:50+00:00
-url: /listing/usbekistan/
 featured_image: DSC0337101.jpg
 attachments:
   - '{"tracks":[{"id":"613","fields":{"endflag":"false","vehicle":"car"}},{"id":"614","fields":{"endflag":"false","vehicle":"bike"}},{"id":"615","fields":{"endflag":"false","vehicle":"bike"}},{"id":"616","fields":{"endflag":"false","vehicle":"car"}},{"id":"617","fields":{"endflag":"false","vehicle":"bike"}},{"id":"618","fields":{"endflag":"false","vehicle":"bike"}},{"id":"619","fields":{"endflag":"false","vehicle":"bike"}},{"id":"620","fields":{"endflag":"false","vehicle":"bike"}},{"id":"621","fields":{"endflag":"false","vehicle":"bike"}},{"id":"622","fields":{"endflag":"true","vehicle":"bike"}}]}'
@@ -40,6 +39,9 @@ tracks:
   - endflag: true
     vehicle: bike
     file: tracks/2014-09-15-07-33-32.pbf
+slug: usbekistan
+aliases:
+  - /listing/usbekistan/
 ---
 Usbekistan &#8211; ein Land mit freundlichen Menschen, schönen Handelsstädten der alten Seidenstraße aber trister Landschaft. Nach Turkmenistan war Usbekistan schon das zweite Land in Folge, dessen Landschaft uns nicht begeistern konnte. Wir müssen aber auch dazu sagen, dass wir uns innerlich nicht so richtig für das Land öffnen konnten. Wir betrachteten Usbekistan eher als ein Land, das notwendigerweise durchquert werden musste, da es auf unserem Weg nach Kirgisistan lag. Wir sehnten uns nach schöner Landschaft und ruhigen Zeltplätzen, die in Kirgisistan auf uns warteten. Die vielen freundlichen Zurufe der Menschen und das grüßende Hupen von Autos begannen wir irgendwann schon zu ignorieren. Während wir uns in den ersten Monaten unserer Reise über jedes Hupen, Winken und Rufen von Einheimischen unglaublich freuten, empfanden wir das Hupen mittlerweile als unglaublich störend: An viel befahrenen Straßen hat man sowieso schon den Lerm des Verkehrs zu ertragen und wenn dann auch noch JEDES Auto hupend an einem vorbei fährt, wird man schon irgendwas etwas aggressiv. Zudem kann man dann auch nicht mehr ausmachen, wann die Hupe als Warnsignal zu verstehen ist. Wir waren es außerdem auch überdrüssig, den Menschen immer wieder unsere gleiche Geschichte zu erzählen. Wir hatten einfach genug von dem ganzen Winken, Lächeln und den immer wieder gleichen Fragen&#8230; Dies scheint wohl nach einiger Zeit des Reisens ein bekanntes Phänomen bei den Reiseradlern zu sein, denn den meisten mit denen wir gesprochen haben, schien es irgendwie genauso zu gehen. Eigentlich bewundernswert, dass die Usbeken trotzdem noch jedem Reiseradler freundlich zuwinken/anhupen obwohl diese doch sehr unfreundlich wirken müssen.
 
