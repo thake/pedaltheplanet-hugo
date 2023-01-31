@@ -7,6 +7,7 @@ defaultContentLanguage = 'de'
 disqusShortname = 'pedaltheplanet'
 menu = 'main'
 paginate = 6
+timeout = '300s'
 [params]
     gallerySortOrder = 'asc'
     galleryRowHeight = '200'
