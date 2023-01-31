@@ -19,7 +19,8 @@
         <div class="post-description">
         
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        {{ if .Date }}<p class="meta-info"> am {{ time.Format "02. January 2006" .Date }}</p>{{ end }}		
+        {{ if .Date }}<p class="meta-info"> am {{ time.Format "02. January 2006" .Date }} | 
+            <span class="comments-number disqus-comment-count" data-disqus-url="{{ .Permalink }}"></span></p>{{ end }}		
     </div> <!-- .post-description -->
 
     </div> <!-- .post-thumbnail -->

@@ -7,7 +7,7 @@ featured_image: DSC0916101.jpg
 attachments:
   - '{"tracks":[{"id":"293","fields":{"endflag":"false","vehicle":"bike"}},{"id":"294","fields":{"endflag":"false","vehicle":"bike"}},{"id":"295","fields":{"endflag":"false","vehicle":"bike"}},{"id":"296","fields":{"endflag":"false","vehicle":"bike"}},{"id":"297","fields":{"endflag":"false","vehicle":"bike"}},{"id":"298","fields":{"endflag":"true","vehicle":"bike"}}]}'
 categories:
-  - Slowakei und Ungarn
+  - Slowakei-und-Ungarn
 tracks:
   - endflag: false
     vehicle: bike

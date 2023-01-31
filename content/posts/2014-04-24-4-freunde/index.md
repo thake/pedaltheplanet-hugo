@@ -8,7 +8,7 @@ attachments:
   - '{"tracks":[{"id":"305","fields":{"endflag":"false","vehicle":"bike"}},{"id":"306","fields":{"endflag":"false","vehicle":"bike"}},{"id":"307","fields":{"endflag":"false","vehicle":"bike"}},{"id":"308","fields":{"endflag":"false","vehicle":"bike"}},{"id":"309","fields":{"endflag":"false","vehicle":"bike"}},{"id":"310","fields":{"endflag":"false","vehicle":"bike"}},{"id":"311","fields":{"endflag":"false","vehicle":"bike"}},{"id":"312","fields":{"endflag":"true","vehicle":"bike"}}]}'
 categories:
   - Balkan
-  - Slowakei und Ungarn
+  - Slowakei-und-Ungarn
 tracks:
   - endflag: false
     vehicle: bike
