@@ -550,9 +550,7 @@ html:lang(de) #et-list-view .et-date{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.etc_direct_post_nav{
-    float:right;
-}
+
 .entry_track_heading{
     font-family: 'League Gothic';
     padding-left: 5px;
@@ -734,4 +732,24 @@ div.legend-categories ul li {
     font-weight: 700;
     font-family: Helvetica,Arial;
     text-transform: uppercase;
+}
+/* Breadcrumps */
+#breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#breadcrumbs :nth-last-child(2) {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.etc_direct_post_nav{
+    float:right;
+    margin-left: 1em;
+}
+#breadcrumbs .raquo {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }

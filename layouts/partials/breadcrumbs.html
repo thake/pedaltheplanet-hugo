@@ -8,7 +8,7 @@
             {{ end }}
         {{ end }}
     {{ end }}
-    {{ .Title }}
+    <span>{{ .Title }}</span>
     <span class="etc_direct_post_nav">
                 {{ if and .IsPage (eq .Type "post") }}
                     {{ with .PrevInSection }}
