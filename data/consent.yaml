@@ -1,0 +1,9 @@
+items:
+  - title: Google Analytics
+    description: Diese Funktionalität gibt uns tieferen Einblick in die Anzahl der Personen die unsere Webseite besuchen, woher sie sind und welche Elemente sie auf unserer Webseite benutzen.
+    is_functional: false
+    script: /js/ga.js
+  - title: Disqus
+    description: Disqus ermöglicht unsere Kommentarfunktion.
+    is_functional: false
+    script: /js/disqus.js

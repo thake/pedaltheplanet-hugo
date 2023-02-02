@@ -29,6 +29,10 @@
     function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {            
             mapTypeId: {{ if and .IsPage (isset .Params "map") (isset .Params.map "type") }}"{{ .Params.map.type }}"{{ else }}"roadmap"{{ end }},
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+            },
+            streetViewControl: false
         });
         const legend = document.getElementById("legend");
         {{ range $page := $pages }}            
