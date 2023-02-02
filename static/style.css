@@ -737,17 +737,19 @@ div.legend-categories ul li {
 #breadcrumbs {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    line-height: 1.8em;
 }
-#breadcrumbs :nth-last-child(2) {
+#breadcrumbs > :nth-last-child(2) {
     flex: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-right: 1em;
 }
 .etc_direct_post_nav{
+    display:flex;
     float:right;
-    margin-left: 1em;
 }
 #breadcrumbs .raquo {
     margin-left: 0.5em;
