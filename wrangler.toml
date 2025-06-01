@@ -1,6 +1,6 @@
 # Configure Cloudflare Worker
 
-name = 'hosting-cloudflare-worker'
+name = 'pedaltheplanet'
 compatibility_date = "2025-06-01"
 
 [build]
