@@ -1,6 +1,7 @@
 ---
 title: Reiseberichte
-menu: 
+url: /
+menus: 
   main:
     identifier: reiseberichte
     weight: 1

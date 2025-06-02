@@ -2,7 +2,7 @@
 title: Visa
 author: Sabine
 type: page
-menu:
+menus:
   main:
     parent: vorbereitungen
 #date: 2014-07-13T14:45:52+00:00

@@ -2,7 +2,7 @@
 title: Links
 author: Sabine
 type: page
-menu: 
+menus: 
   main:
     weight: 5
 #date: 2014-01-27T10:20:48+00:00

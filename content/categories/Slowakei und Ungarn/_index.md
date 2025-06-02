@@ -1,6 +1,6 @@
 ---
 title: Slowakei und Ungarn
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 3

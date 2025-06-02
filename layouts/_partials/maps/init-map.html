@@ -1,0 +1,100 @@
+<div id="legend" class="legend-canvas">
+    <div class="legend-canvas-inner">
+        <div class="layer-legends"><h2
+                class="legend-title">
+            <span class="legend-ellipsis">Legende</span>
+        </h2>
+            <div class="legend">
+                <div class="legend-item u-tSpace-xl" style="display: block;">
+                    <div class="legend-categories">
+                        <ul>
+                            <li>
+                                <div class="bullet" style="opacity: 1 ; background: #d43838"></div>
+                                Fahrrad
+                            </li>
+                            <li>
+                                <div class="bullet" style="opacity: 1 ; background: #5fd45f"></div>
+                                Zug/Bus/Schiff
+                            </li>
+                            <li>
+                                <div class="bullet" style="opacity: 1 ; background: #54aadd"></div>
+                                Flugzeug
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_P-hn8ptgfZd75Gd8RjmY_8CtYCMLm1c&callback=initMap"></script>
+<script>
+    let map;
+    async function loadTrack(url){
+        const response = await fetch(url);
+        track = await geobuf.decode(new Pbf(await response.arrayBuffer()));
+        track.features = track.features.filter(feature => feature.geometry.type === 'LineString');
+        return track;
+    }
+    function processPoints(geometry, callback, thisArg) {
+        if (geometry instanceof google.maps.LatLng) {
+            callback.call(thisArg, geometry);
+        } else if (geometry instanceof google.maps.Data.Point) {
+            callback.call(thisArg, geometry.get());
+        } else {
+            geometry.getArray().forEach(function(g) {
+                processPoints(g, callback, thisArg);
+            });
+        }
+    }
+    function initMap() {
+        const mapContainer = document.getElementById("map");
+        map = new google.maps.Map(document.getElementById("map"), {            
+            mapTypeId: mapContainer.getAttribute("data-map-type") || "roadmap",
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+            },
+            streetViewControl: false
+        });
+        const legend = document.getElementById("legend");
+        const tracksElements = document.querySelectorAll("article[data-tracks]")
+        // for each
+        tracksElements.forEach((trackElement) => {
+            JSON.parse(trackElement.getAttribute("data-tracks")).forEach((track) => {
+                loadTrack(track.href).then((trackGeoJson) => {
+                    addedFeatures = map.data.addGeoJson(trackGeoJson);
+                    if(track.vehicle === "car") {
+                        addedFeatures.forEach((feature) => {
+                            map.data.overrideStyle(feature, {
+                                strokeColor: '#5fd45f'
+                            })
+                        })
+                    } else if (track.vehicle === "plane") {
+                        addedFeatures.forEach((feature) => {
+                            map.data.overrideStyle(feature, {
+                                strokeColor: '#54aadd'
+                            })
+                        })
+                    }
+                });
+            })
+        });
+        
+        // zoom to show all the features
+        var bounds = new google.maps.LatLngBounds();
+        map.data.setStyle({
+            strokeColor: '#d43838'
+        })
+        map.data.addListener('addfeature', function(e) {
+            processPoints(e.feature.getGeometry(), bounds.extend, bounds);
+            map.fitBounds(bounds);            
+        });        
+        map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+        google.maps.event.addListenerOnce(map, 'idle', function(){
+            setTimeout(function() {
+                legend.style.display = "block";    
+            }, 1000);              
+        });
+    }
+    window.initMap = initMap;
+</script>

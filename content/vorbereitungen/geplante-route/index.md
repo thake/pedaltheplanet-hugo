@@ -5,7 +5,7 @@ type: page
 map:
   type: satellite
   title: Geplante Route
-menu: 
+menus: 
   main:
     parent: vorbereitungen
 tracks:

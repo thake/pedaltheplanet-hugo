@@ -1,7 +1,7 @@
 ---
 title: Wir
 author: Thorsten
-menu: 
+menus: 
   main:
     weight: 3
 type: page

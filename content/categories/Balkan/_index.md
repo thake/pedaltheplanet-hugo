@@ -1,6 +1,6 @@
 ---
 title: Balkan
-menu:
+menus:
   main:
     parent: reiseberichte    
     weight: 4

@@ -1,6 +1,6 @@
 ---
 title: Türkei
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 5

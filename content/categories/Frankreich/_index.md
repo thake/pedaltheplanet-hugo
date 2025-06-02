@@ -1,6 +1,6 @@
 ---
 title: Frankreich
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 10

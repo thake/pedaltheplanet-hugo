@@ -5,5 +5,5 @@ window.disqus_config = function () {
     {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
     {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
 };
-window.disqus_shortname = "{{ .Site.DisqusShortname }}";
+window.disqus_shortname = "{{ .Site.Config.Services.Disqus.Shortname }}";
 </script>

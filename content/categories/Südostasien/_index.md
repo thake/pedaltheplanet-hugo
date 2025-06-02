@@ -1,6 +1,6 @@
 ---
 title: Südostasien
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 9

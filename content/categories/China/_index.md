@@ -1,6 +1,6 @@
 ---
 title: China
-menu:
+menus:
   main:
     parent: reiseberichte    
     weight: 8    

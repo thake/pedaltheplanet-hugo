@@ -4,7 +4,7 @@ author: Sabine
 type: page
 map:
   type: satellite
-menu:
+menus:
   main:
     parent: vorbereitungen
 tracks:

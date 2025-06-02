@@ -1,6 +1,6 @@
 ---
 title: Deutschland
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 1

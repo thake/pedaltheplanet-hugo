@@ -2,7 +2,7 @@
 title: Kontakt
 author: Sabine
 type: page
-menu: 
+menus: 
   main:
     weight: 6
 #date: 2014-01-26T20:33:16+00:00

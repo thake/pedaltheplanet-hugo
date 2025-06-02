@@ -1,6 +1,6 @@
 ---
 title: Österreich
-menu:
+menus:
   main:
     parent: reiseberichte
     weight: 2

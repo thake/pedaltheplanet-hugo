@@ -1,6 +1,6 @@
 ---
 title: Vorbereitungen
-menu: 
+menus: 
   main:
     identifier: vorbereitungen    
     weight: 2

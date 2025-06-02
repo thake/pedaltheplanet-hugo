@@ -1,16 +1,30 @@
 {{ define "heading" }}
-<script type="text/javascript">window.disqus_shortname = "{{ .Site.DisqusShortname }}";</script>
+<script type="text/javascript">window.disqus_shortname = "{{ .Site.Config.Services.Disqus.Shortname }}";</script>
 <div class="category-route">
     {{ if (partial "maps/check-map-needed.html" .) }}
-    <div id="map" class="category-route-map"></div>    
+    <div id="map" class="category-route-map" data-map-type="{{ default "roadmap" .Params.map.type }}"></div>
     {{ partial "maps/init-map.html" . }}
     {{ end }}
     <div class="et-date-wrapper"><span class="et-date">{{ .Title }}</span></div>
 </div>
 {{ end }}
 {{ define "main" }}
-{{ range .Pages }}
-<article class="entry-post clearfix">
+{{- range .Pages -}}
+{{- $page := . -}}
+{{- $tracks := slice -}}
+{{- with .Params.tracks -}}
+
+
+  {{- range . -}}
+    {{- $s := newScratch -}}
+    {{- $file := ($page.Resources.GetMatch .file) -}}
+    {{- $s.SetInMap "map" "href" $file.RelPermalink -}}
+    {{- $map := $s.Get "map" -}}
+    {{- $s.SetInMap "map" "vehicle" .vehicle -}}
+    {{- $tracks = $tracks | append $map -}}
+  {{- end -}}
+{{- end -}}
+<article class="entry-post clearfix" {{ with $tracks }}{{ printf "data-tracks=%s" (jsonify .) | safeHTMLAttr }}{{ end }}>
     <div class="post-thumbnail">
         {{ $alt := .Page.Title }}
         {{ with .Page.Resources.GetMatch .Params.featured_image }}        

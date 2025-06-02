@@ -18,15 +18,26 @@
 </div>
 {{ end }}
 {{ define "main" }}
-
-<article class="entry-content">
+{{- $page := . -}}
+{{- $tracks := slice -}}
+{{- with .Params.tracks -}}
+  {{- range . -}}
+    {{- $s := newScratch -}}
+    {{- $file := ($page.Resources.GetMatch .file) -}}
+    {{- $s.SetInMap "map" "href" $file.RelPermalink -}}
+    {{- $map := $s.Get "map" -}}
+    {{- $s.SetInMap "map" "vehicle" .vehicle -}}
+    {{- $tracks = $tracks | append $map -}}
+  {{- end -}}
+{{- end -}}
+<article class="entry-content" {{ with $tracks }}{{ printf "data-tracks=%s" (jsonify .) | safeHTMLAttr }}{{ end }}>
     {{ .Content }}
 </article>
 {{ if (partial "maps/check-map-needed.html" .) }}
     <div class="entry-route">
         <div class="entry-map-wrapper">
             <h1 class="entry_track_heading">{{ .Params.map.title | default "Gefahrene Strecke"}}</h1>
-            <div id="map" class="entry-route-map"></div>
+            <div id="map" class="entry-route-map" data-map-type="{{ default "roadmap" .Params.map.type }}"></div>
         </div>
         {{ partial "maps/init-map.html" . }}    
     </div>

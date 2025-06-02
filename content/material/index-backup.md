@@ -2,7 +2,7 @@
 title: Material
 author: Thorsten
 type: page
-menu: 
+menus: 
   main:
     weight: 4
 featured_image: material.jpg
